@@ -23,6 +23,7 @@
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Zabbix](https://img.shields.io/badge/Zabbix-FF0000?style=for-the-badge&logo=zabbix&logoColor=white)
+![Grafana]()
 
 ### Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -33,24 +34,15 @@
 
 ## 📂 Featured Projects
 
-### 🔧 [my-devops-journey](https://github.com/heinsitt/my-devops-journey)
-> My learning notes and experiments on the DevOps path
-- 📝 Infrastructure as Code practices
-- 🐳 Docker & Containerization experiments
+### 🔧 [Hein.Oxide Branding Page](https://heinsitt.github.io/Hein.Oxide-Project/)
+> Building the modern design landing page for Hein.Oxide
+- 💻 Personal Branding
+- 🖥️ Web Design & Frontend Development
 
 ### 📊 [wordpress-zabbix-monitoring](https://github.com/heinsitt/wordpress-zabbix-monitoring)
 > Zabbix Monitoring system for WordPress
 - 📈 Server Performance Monitoring
 - 🔔 Alert & Notification Setup
-
-### 🎨 [my-portfolio](https://github.com/heinsitt/my-portfolio)
-> Personal Portfolio Website
-- 💻 Personal Branding
-- 🖥️ Frontend Development
-
-### 🌐 [portfolio](https://github.com/heinsitt/portfolio)
-> Another Portfolio Project
-- 🎯 Web Design & Development
 
 ---
 
