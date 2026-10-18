@@ -1,4 +1,4 @@
-# 👋 Hello, I'm Hein Sitt
+# 👋 Hello, I'm Hein Sitt Tun
 
 🚀 **DevOps Enthusiast** | ☁️ **Cloud & Automation** | 🔧 **Infrastructure as Code**
 
@@ -42,8 +42,8 @@
 ## 📂 Featured Projects
 
 ### 🔧 [Hein.Oxide Branding Page](https://heinsitt.github.io/Hein.Oxide-Project/)
-> Building the modern design landing page for Hein.Oxide
-- 💻 Personal Branding
+> Building the modern design landing page for Hein.Oxide Film Creator Youtube Channel
+- 💻 Personal Branding Page
 - 🖥️ Web Design & Frontend Development
 
 ### 📊 [Infra Lab Series-00](https://heinsitt.github.io/Infra-lab-series-00/)
