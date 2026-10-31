@@ -62,9 +62,9 @@ Focused on automation, monitoring, and clean infrastructure design.
 
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=heinsitt&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7AA2F7&icon_color=BB9AF7&text_color=A9B1D6)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=heinsitt&show_icons=true&theme=tokyonight&hide_border=true)
   
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=heinsitt&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7AA2F7&text_color=A9B1D6)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=heinsitt&layout=compact&theme=tokyonight&hide_border=true)
   
 </div>
 
