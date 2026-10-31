@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/heinsitt/heinsitt/main/matrix-banner.svg" alt="Matrix Rain" width="100%">
+</p>
+
 # Hi, I'm Hein Sitt Tun 👋
 
 **Associate DevOps Engineer** · Cloud & Automation · Infrastructure as Code
