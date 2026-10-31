@@ -2,14 +2,22 @@
   <img src="https://raw.githubusercontent.com/heinsitt/heinsitt/main/matrix-banner.svg" alt="Matrix Rain" width="100%">
 </p>
 
-# Hi, I'm Hein Sitt Tun 👋
+# Hein Sitt Tun
 
 **Associate DevOps Engineer** · Cloud & Automation · Infrastructure as Code
 
 Building reliable systems with Kubernetes, Terraform, and modern observability stacks.  
-Currently deepening expertise in container orchestration and infrastructure automation.
+Focused on automation, monitoring, and clean infrastructure design.
 
 📍 Yangon, Myanmar · 💼 [BIM ATS](https://www.bimats.com/) · 🌐 [Portfolio](https://heinsitt.vercel.app/)
+
+---
+
+### Currently
+
+- Deepening expertise in **Kubernetes** and **Terraform**
+- Building internal monitoring & automation solutions at BIM ATS
+- Exploring AI-assisted development workflows (Claude, Antigravity, Cursor)
 
 ---
 
@@ -38,16 +46,15 @@ Currently deepening expertise in container orchestration and infrastructure auto
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
 
 ---
 
 ### Featured Projects
 
-| Project | Description |
-|---------|-------------|
-| **[Hein.Oxide Branding Page](https://heinsitt.github.io/Hein.Oxide-Project/)** | Modern landing page for the Hein.Oxide Film Creator YouTube channel. Focused on clean personal branding and frontend design. |
-| **[Infra Lab Series-00](https://heinsitt.github.io/Infra-lab-series-00/)** | WordPress + Docker hybrid monitoring stack with Zabbix and Grafana. Includes server performance monitoring and alert setup. |
+| Project | Stack | Description |
+|---------|-------|-------------|
+| **[Infra Lab Series-00](https://heinsitt.github.io/Infra-lab-series-00/)** | Docker · Zabbix · Grafana | WordPress + Docker hybrid monitoring engine with alerting and dashboards |
+| **[Hein.Oxide Branding](https://heinsitt.github.io/Hein.Oxide-Project/)** | HTML · CSS · JS | Clean personal branding landing page for YouTube channel |
 
 ---
 
@@ -55,7 +62,9 @@ Currently deepening expertise in container orchestration and infrastructure auto
 
 <div align="center">
   
-![GitHub Streak](https://streak-stats.demolab.com/?user=heinsitt&theme=tokyonight&hide_border=true&background=0D1117&stroke=7AA2F7&ring=BB9AF7&fire=F7768E&currStreakNum=A9B1D6&sideNums=A9B1D6&currStreakLabel=7AA2F7&sideLabels=A9B1D6&dates=A9B1D6)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=heinsitt&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7AA2F7&icon_color=BB9AF7&text_color=A9B1D6)
+  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=heinsitt&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7AA2F7&text_color=A9B1D6)
   
 </div>
 
@@ -66,7 +75,3 @@ Currently deepening expertise in container orchestration and infrastructure auto
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/heinsitttun/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://heinsitt.vercel.app/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:heinsitttun2002@gmail.com)
-
----
-
-*"Automate the boring stuff. Observe everything. Keep improving."*
