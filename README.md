@@ -64,7 +64,6 @@ Focused on automation, monitoring, and clean infrastructure design.
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=heinsitt&layout=compact&theme=tokyonight)
   
-</div>
 
 ---
 
