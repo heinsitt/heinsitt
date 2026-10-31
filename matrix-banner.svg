@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200">
+  <rect width="1200" height="200" fill="#0a0a0a"/>
+  
+  <!-- Matrix Rain Columns -->
+  <g font-family="monospace" font-size="14" fill="#00ff41">
+    <!-- Column 1 -->
+    <text x="30" y="0">
+      <tspan x="30" dy="18">ﾊ</tspan><tspan x="30" dy="18">ﾐ</tspan><tspan x="30" dy="18">ﾋ</tspan><tspan x="30" dy="18">ｰ</tspan><tspan x="30" dy="18">ｳ</tspan><tspan x="30" dy="18">ｼ</tspan><tspan x="30" dy="18">ﾅ</tspan><tspan x="30" dy="18">ﾓ</tspan><tspan x="30" dy="18">ｽ</tspan><tspan x="30" dy="18">ｱ</tspan>
+      <animate attributeName="y" values="-180;200" dur="4s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Column 2 -->
+    <text x="70" y="0" opacity="0.8">
+      <tspan x="70" dy="18">1</tspan><tspan x="70" dy="18">0</tspan><tspan x="70" dy="18">1</tspan><tspan x="70" dy="18">0</tspan><tspan x="70" dy="18">1</tspan><tspan x="70" dy="18">0</tspan><tspan x="70" dy="18">1</tspan><tspan x="70" dy="18">0</tspan>
+      <animate attributeName="y" values="-160;220" dur="3.5s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Column 3 -->
+    <text x="110" y="0">
+      <tspan x="110" dy="18">ｶ</tspan><tspan x="110" dy="18">ｷ</tspan><tspan x="110" dy="18">ｸ</tspan><tspan x="110" dy="18">ｹ</tspan><tspan x="110" dy="18">ｺ</tspan><tspan x="110" dy="18">ｻ</tspan><tspan x="110" dy="18">ｼ</tspan><tspan x="110" dy="18">ｽ</tspan>
+      <animate attributeName="y" values="-200;180" dur="5s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Column 4 -->
+    <text x="150" y="0" opacity="0.7">
+      <tspan x="150" dy="18">0</tspan><tspan x="150" dy="18">1</tspan><tspan x="150" dy="18">0</tspan><tspan x="150" dy="18">1</tspan><tspan x="150" dy="18">0</tspan><tspan x="150" dy="18">1</tspan>
+      <animate attributeName="y" values="-140;240" dur="3s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Column 5 -->
+    <text x="190" y="0">
+      <tspan x="190" dy="18">ﾅ</tspan><tspan x="190" dy="18">ﾆ</tspan><tspan x="190" dy="18">ﾇ</tspan><tspan x="190" dy="18">ﾈ</tspan><tspan x="190" dy="18">ﾉ</tspan><tspan x="190" dy="18">ﾊ</tspan><tspan x="190" dy="18">ﾋ</tspan>
+      <animate attributeName="y" values="-220;160" dur="4.5s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Column 6 -->
+    <text x="230" y="0" opacity="0.9">
+      <tspan x="230" dy="18">1</tspan><tspan x="230" dy="18">0</tspan><tspan x="230" dy="18">1</tspan><tspan x="230" dy="18">0</tspan><tspan x="230" dy="18">1</tspan><tspan x="230" dy="18">0</tspan><tspan x="230" dy="18">1</tspan>
+      <animate attributeName="y" values="-170;210" dur="3.8s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Column 7 -->
+    <text x="270" y="0">
+      <tspan x="270" dy="18">ﾏ</tspan><tspan x="270" dy="18">ﾐ</tspan><tspan x="270" dy="18">ﾑ</tspan><tspan x="270" dy="18">ﾒ</tspan><tspan x="270" dy="18">ﾓ</tspan><tspan x="270" dy="18">ﾔ</tspan>
+      <animate attributeName="y" values="-190;190" dur="4.2s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Column 8 -->
+    <text x="310" y="0" opacity="0.6">
+      <tspan x="310" dy="18">0</tspan><tspan x="310" dy="18">1</tspan><tspan x="310" dy="18">0</tspan><tspan x="310" dy="18">1</tspan><tspan x="310" dy="18">0</tspan>
+      <animate attributeName="y" values="-150;230" dur="3.2s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Column 9 -->
+    <text x="350" y="0">
+      <tspan x="350" dy="18">ﾗ</tspan><tspan x="350" dy="18">ﾘ</tspan><tspan x="350" dy="18">ﾙ</tspan><tspan x="350" dy="18">ﾚ</tspan><tspan x="350" dy="18">ﾛ</tspan><tspan x="350" dy="18">ﾜ</tspan><tspan x="350" dy="18">ﾝ</tspan>
+      <animate attributeName="y" values="-210;170" dur="5.2s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Column 10 -->
+    <text x="390" y="0" opacity="0.85">
+      <tspan x="390" dy="18">1</tspan><tspan x="390" dy="18">0</tspan><tspan x="390" dy="18">1</tspan><tspan x="390" dy="18">0</tspan><tspan x="390" dy="18">1</tspan><tspan x="390" dy="18">0</tspan>
+      <animate attributeName="y" values="-180;200" dur="3.6s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- More columns for denser effect -->
+    <text x="430" y="0">
+      <tspan x="430" dy="18">ｱ</tspan><tspan x="430" dy="18">ｲ</tspan><tspan x="430" dy="18">ｳ</tspan><tspan x="430" dy="18">ｴ</tspan><tspan x="430" dy="18">ｵ</tspan>
+      <animate attributeName="y" values="-160;220" dur="4.8s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="470" y="0" opacity="0.75">
+      <tspan x="470" dy="18">0</tspan><tspan x="470" dy="18">1</tspan><tspan x="470" dy="18">0</tspan><tspan x="470" dy="18">1</tspan><tspan x="470" dy="18">0</tspan><tspan x="470" dy="18">1</tspan>
+      <animate attributeName="y" values="-200;180" dur="3.4s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="510" y="0">
+      <tspan x="510" dy="18">ｻ</tspan><tspan x="510" dy="18">ｼ</tspan><tspan x="510" dy="18">ｽ</tspan><tspan x="510" dy="18">ｾ</tspan><tspan x="510" dy="18">ｿ</tspan>
+      <animate attributeName="y" values="-170;210" dur="4.1s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="550" y="0" opacity="0.9">
+      <tspan x="550" dy="18">1</tspan><tspan x="550" dy="18">0</tspan><tspan x="550" dy="18">1</tspan><tspan x="550" dy="18">0</tspan><tspan x="550" dy="18">1</tspan>
+      <animate attributeName="y" values="-190;190" dur="3.9s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="590" y="0">
+      <tspan x="590" dy="18">ﾀ</tspan><tspan x="590" dy="18">ﾁ</tspan><tspan x="590" dy="18">ﾂ</tspan><tspan x="590" dy="18">ﾃ</tspan><tspan x="590" dy="18">ﾄ</tspan>
+      <animate attributeName="y" values="-220;160" dur="5.5s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="630" y="0" opacity="0.7">
+      <tspan x="630" dy="18">0</tspan><tspan x="630" dy="18">1</tspan><tspan x="630" dy="18">0</tspan><tspan x="630" dy="18">1</tspan>
+      <animate attributeName="y" values="-140;240" dur="3.1s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="670" y="0">
+      <tspan x="670" dy="18">ﾅ</tspan><tspan x="670" dy="18">ﾆ</tspan><tspan x="670" dy="18">ﾇ</tspan><tspan x="670" dy="18">ﾈ</tspan><tspan x="670" dy="18">ﾉ</tspan>
+      <animate attributeName="y" values="-180;200" dur="4.3s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="710" y="0" opacity="0.85">
+      <tspan x="710" dy="18">1</tspan><tspan x="710" dy="18">0</tspan><tspan x="710" dy="18">1</tspan><tspan x="710" dy="18">0</tspan><tspan x="710" dy="18">1</tspan>
+      <animate attributeName="y" values="-160;220" dur="3.7s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="750" y="0">
+      <tspan x="750" dy="18">ﾊ</tspan><tspan x="750" dy="18">ﾋ</tspan><tspan x="750" dy="18">ﾌ</tspan><tspan x="750" dy="18">ﾍ</tspan><tspan x="750" dy="18">ﾎ</tspan>
+      <animate attributeName="y" values="-210;170" dur="4.7s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="790" y="0" opacity="0.65">
+      <tspan x="790" dy="18">0</tspan><tspan x="790" dy="18">1</tspan><tspan x="790" dy="18">0</tspan><tspan x="790" dy="18">1</tspan>
+      <animate attributeName="y" values="-150;230" dur="3.3s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="830" y="0">
+      <tspan x="830" dy="18">ﾏ</tspan><tspan x="830" dy="18">ﾐ</tspan><tspan x="830" dy="18">ﾑ</tspan><tspan x="830" dy="18">ﾒ</tspan>
+      <animate attributeName="y" values="-190;190" dur="5s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="870" y="0" opacity="0.8">
+      <tspan x="870" dy="18">1</tspan><tspan x="870" dy="18">0</tspan><tspan x="870" dy="18">1</tspan><tspan x="870" dy="18">0</tspan><tspan x="870" dy="18">1</tspan>
+      <animate attributeName="y" values="-170;210" dur="3.5s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="910" y="0">
+      <tspan x="910" dy="18">ﾔ</tspan><tspan x="910" dy="18">ﾕ</tspan><tspan x="910" dy="18">ﾖ</tspan><tspan x="910" dy="18">ﾗ</tspan>
+      <animate attributeName="y" values="-200;180" dur="4.4s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="950" y="0" opacity="0.9">
+      <tspan x="950" dy="18">0</tspan><tspan x="950" dy="18">1</tspan><tspan x="950" dy="18">0</tspan><tspan x="950" dy="18">1</tspan>
+      <animate attributeName="y" values="-180;200" dur="3.8s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="990" y="0">
+      <tspan x="990" dy="18">ﾜ</tspan><tspan x="990" dy="18">ﾝ</tspan><tspan x="990" dy="18">ｱ</tspan><tspan x="990" dy="18">ｲ</tspan>
+      <animate attributeName="y" values="-220;160" dur="5.1s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="1030" y="0" opacity="0.7">
+      <tspan x="1030" dy="18">1</tspan><tspan x="1030" dy="18">0</tspan><tspan x="1030" dy="18">1</tspan><tspan x="1030" dy="18">0</tspan>
+      <animate attributeName="y" values="-140;240" dur="3.2s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="1070" y="0">
+      <tspan x="1070" dy="18">ｳ</tspan><tspan x="1070" dy="18">ｴ</tspan><tspan x="1070" dy="18">ｵ</tspan><tspan x="1070" dy="18">ｶ</tspan>
+      <animate attributeName="y" values="-190;190" dur="4.6s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="1110" y="0" opacity="0.85">
+      <tspan x="1110" dy="18">0</tspan><tspan x="1110" dy="18">1</tspan><tspan x="1110" dy="18">0</tspan><tspan x="1110" dy="18">1</tspan>
+      <animate attributeName="y" values="-160;220" dur="3.6s" repeatCount="indefinite"/>
+    </text>
+    
+    <text x="1150" y="0">
+      <tspan x="1150" dy="18">ｷ</tspan><tspan x="1150" dy="18">ｸ</tspan><tspan x="1150" dy="18">ｹ</tspan>
+      <animate attributeName="y" values="-210;170" dur="4.9s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  
+  <!-- Center Text Overlay -->
+  <text x="600" y="105" font-family="monospace" font-size="28" fill="#00ff41" text-anchor="middle" font-weight="bold" opacity="0.95">
+    HEIN SITT TUN
+  </text>
+  <text x="600" y="135" font-family="monospace" font-size="14" fill="#00ff41" text-anchor="middle" opacity="0.7">
+    DevOps • Cloud • Automation
+  </text>
+</svg>
