@@ -50,10 +50,6 @@ Currently deepening expertise in container orchestration and infrastructure auto
 
 <div align="center">
   
-![Hein's GitHub Stats](https://github-readme-stats.vercel.app/api?username=heinsitt&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7AA2F7&icon_color=BB9AF7&text_color=A9B1D6)
-  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=heinsitt&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=7AA2F7&text_color=A9B1D6)
-  
 ![GitHub Streak](https://streak-stats.demolab.com/?user=heinsitt&theme=tokyonight&hide_border=true&background=0D1117&stroke=7AA2F7&ring=BB9AF7&fire=F7768E&currStreakNum=A9B1D6&sideNums=A9B1D6&currStreakLabel=7AA2F7&sideLabels=A9B1D6&dates=A9B1D6)
   
 </div>
