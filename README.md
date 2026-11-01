@@ -79,11 +79,6 @@ I'm an **Associate DevOps Engineer** focused on building reliable infrastructure
 ## `github_activity`
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=heinsitt&show_icons=true&hide_border=true&bg_color=080D18&title_color=22D3EE&text_color=C9D1D9&icon_color=8B5CF6&ring_color=22D3EE" alt="Hein's GitHub statistics">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=heinsitt&layout=compact&hide_border=true&bg_color=080D18&title_color=22D3EE&text_color=C9D1D9" alt="Most used languages">
-</p>
-
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=heinsitt&hide_border=true&background=080D18&ring=22D3EE&fire=8B5CF6&currStreakLabel=22D3EE&sideLabels=C9D1D9&dates=8290A5&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub contribution streak">
 </p>
 
