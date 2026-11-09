@@ -11,7 +11,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heinsitt/heinsitt/main/assets/banner-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/heinsitt/heinsitt/main/assets/banner-light.svg">
-    <img src="https://raw.githubusercontent.com/heinsitt/heinsitt/main/assets/banner-dark.svg" alt="Hein Sitt Tun — Associate DevOps Engineer. Cloud and Automation, Infrastructure as Code, Observability. Yangon, Myanmar, BIM ATS." width="100%">
+    <img src="https://raw.githubusercontent.com/heinsitt/heinsitt/main/assets/banner-dark.svg" alt="Hein Sitt Tun — Associate DevOps Engineer. Cloud and Automation, Infrastructure as Code, Observability. Yangon, Myanmar." width="100%">
   </picture>
 </p>
 
