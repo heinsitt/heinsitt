@@ -45,7 +45,7 @@ I'm an **Associate DevOps Engineer** focused on building reliable infrastructure
 automation. I work with tools such as Kubernetes, Terraform, Docker, and modern monitoring stacks
 to make systems easier to deploy, operate, and observe.
 
-- **Role** — Associate DevOps Engineer at [BIM ATS](https://www.bimats.com/)
+- **Role** — Associate DevOps Engineer
 - **Location** — Yangon, Myanmar
 - **Focus** — Cloud infrastructure, declarative delivery, observability
 - **Currently** — Deepening **Kubernetes** and **Terraform**
