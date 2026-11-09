@@ -12,19 +12,24 @@
       <circle cx="1.4" cy="1.4" r="1.1" fill="#0B1220" opacity="0.055"/>
     </pattern>
     <radialGradient id="a1" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"   stop-color="#22D3EE" stop-opacity="0.26"/>
-      <stop offset="52%"  stop-color="#22D3EE" stop-opacity="0.078"/>
+      <stop offset="0%"   stop-color="#22D3EE" stop-opacity="0.28"/>
+      <stop offset="52%"  stop-color="#22D3EE" stop-opacity="0.084"/>
       <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="a2" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"   stop-color="#A78BFA" stop-opacity="0.24"/>
-      <stop offset="52%"  stop-color="#A78BFA" stop-opacity="0.072"/>
+      <stop offset="0%"   stop-color="#A78BFA" stop-opacity="0.26"/>
+      <stop offset="52%"  stop-color="#A78BFA" stop-opacity="0.078"/>
       <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="a3" cx="50%" cy="50%" r="50%">
-      <stop offset="0%"   stop-color="#5EEAD4" stop-opacity="0.2"/>
-      <stop offset="52%"  stop-color="#5EEAD4" stop-opacity="0.06"/>
+      <stop offset="0%"   stop-color="#5EEAD4" stop-opacity="0.22"/>
+      <stop offset="52%"  stop-color="#5EEAD4" stop-opacity="0.066"/>
       <stop offset="100%" stop-color="#5EEAD4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="a4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#F0ABFC" stop-opacity="0.13"/>
+      <stop offset="52%"  stop-color="#F0ABFC" stop-opacity="0.039"/>
+      <stop offset="100%" stop-color="#F0ABFC" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%"   stop-color="#0891B2" stop-opacity="0"/>
@@ -38,6 +43,10 @@
       <stop offset="50%"  stop-color="#0EA5E9" stop-opacity="0.05"/>
       <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0"/>
     </linearGradient>
+    <radialGradient id="vig" cx="50%" cy="46%" r="72%">
+      <stop offset="45%"  stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.06"/>
+    </radialGradient>
     <clipPath id="frame"><rect x="0" y="0" width="1000" height="300" rx="18"/></clipPath>
     <clipPath id="ruleclip"><rect x="405" y="177" width="190" height="6" rx="3"/></clipPath>
   </defs>
@@ -46,19 +55,24 @@
     <rect width="1000" height="300" fill="url(#bg)"/>
     <rect width="1000" height="300" fill="url(#dots)"/>
 
-  <ellipse cx="250" cy="60" rx="320" ry="210" fill="url(#a1)">
-    <animate attributeName="cx" values="250;300;250" dur="26s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="60;96;60" dur="26s" repeatCount="indefinite"/>
+  <ellipse cx="200" cy="58" rx="340" ry="200" fill="url(#a1)">
+    <animate attributeName="cx" values="200;256;200" dur="26s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="58;96;58" dur="26s" repeatCount="indefinite"/>
   </ellipse>
-  <ellipse cx="760" cy="92" rx="300" ry="200" fill="url(#a2)">
-    <animate attributeName="cx" values="760;706;760" dur="34s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="92;54;92" dur="34s" repeatCount="indefinite"/>
+  <ellipse cx="820" cy="72" rx="320" ry="195" fill="url(#a2)">
+    <animate attributeName="cx" values="820;762;820" dur="33s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="72;38;72" dur="33s" repeatCount="indefinite"/>
   </ellipse>
-  <ellipse cx="500" cy="300" rx="380" ry="220" fill="url(#a3)">
-    <animate attributeName="cx" values="500;556;500" dur="41s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="300;262;300" dur="41s" repeatCount="indefinite"/>
+  <ellipse cx="500" cy="268" rx="400" ry="200" fill="url(#a3)">
+    <animate attributeName="cx" values="500;562;500" dur="39s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="268;232;268" dur="39s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="610" cy="34" rx="190" ry="130" fill="url(#a4)">
+    <animate attributeName="cx" values="610;556;610" dur="29s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="34;62;34" dur="29s" repeatCount="indefinite"/>
   </ellipse>
 
+  <rect width="1000" height="300" fill="url(#vig)"/>
   <circle cx="88" cy="315" r="1.6" fill="#0891B2" opacity="0">
     <animate attributeName="cy" from="315" to="-15" dur="26s" begin="-3s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.18;0.8;1" dur="26s" begin="-3s" repeatCount="indefinite"/>
