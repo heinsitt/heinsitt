@@ -110,6 +110,16 @@ to make systems easier to deploy, operate, and observe.
 
 ## 04 · Activity
 
+<sub>Byte-weighted across public repositories, as classified by GitHub Linguist. Forks and vendored dependencies excluded.</sub>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/heinsitt/heinsitt/main/assets/langs-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/heinsitt/heinsitt/main/assets/langs-light.svg">
+    <img src="https://raw.githubusercontent.com/heinsitt/heinsitt/main/assets/langs-dark.svg" alt="Language breakdown: TypeScript 56.7%, HTML 32.7%, CSS 8.2%, JavaScript 2.2% across 18 public repositories" width="100%">
+  </picture>
+</p>
+
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=heinsitt&hide_border=true&background=0A1120&ring=22D3EE&fire=818CF8&currStreakLabel=22D3EE&sideLabels=A9B8CB&dates=6E8098&currStreakNum=FFFFFF&sideNums=FFFFFF&stroke=1B2A3E" alt="Hein Sitt's GitHub contribution streak: current streak, longest streak, and total contributions">
 </p>
