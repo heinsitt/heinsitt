@@ -1,110 +1,145 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
-  <title id="title">Hein Sitt Tun — Associate DevOps Engineer</title>
-  <desc id="desc">Banner with an animated rotating infrastructure topology motif beside the name, role and location of Hein Sitt Tun.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300"
+     role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">Hein Sitt Tun — Associate DevOps Engineer</title>
+  <desc id="dsc">Centred profile banner: Hein Sitt Tun, Associate DevOps Engineer, Cloud and Automation, Infrastructure as Code, Observability, Yangon, Myanmar.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F1F5FA"/>
+      <stop offset="0%"   stop-color="#FFFFFF"/>
+      <stop offset="52%"  stop-color="#FAFCFF"/>
+      <stop offset="100%" stop-color="#F3F7FC"/>
     </linearGradient>
-    <radialGradient id="glow" cx="79%" cy="48%" r="46%">
-      <stop offset="0" stop-color="#DBEAFE" stop-opacity=".55"/>
-      <stop offset="1" stop-color="#DBEAFE" stop-opacity="0"/>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1.1" fill="#0B1220" opacity="0.055"/>
+    </pattern>
+    <radialGradient id="a1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#22D3EE" stop-opacity="0.26"/>
+      <stop offset="52%"  stop-color="#22D3EE" stop-opacity="0.078"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="a2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#A78BFA" stop-opacity="0.24"/>
+      <stop offset="52%"  stop-color="#A78BFA" stop-opacity="0.072"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="a3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#5EEAD4" stop-opacity="0.2"/>
+      <stop offset="52%"  stop-color="#5EEAD4" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#5EEAD4" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0891B2"/><stop offset="1" stop-color="#4F46E5"/>
+      <stop offset="0%"   stop-color="#0891B2" stop-opacity="0"/>
+      <stop offset="18%"  stop-color="#0891B2"/>
+      <stop offset="52%"  stop-color="#A78BFA"/>
+      <stop offset="82%"  stop-color="#6D28D9"/>
+      <stop offset="100%" stop-color="#6D28D9" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="sheenG" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0F172A" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#0F172A" stop-opacity=".5"/>
-      <stop offset="1" stop-color="#0F172A" stop-opacity="0"/>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#0EA5E9" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#0EA5E9" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#0F172A" stroke-opacity="0.05" stroke-width="1"/>
-    </pattern>
-    <clipPath id="card"><rect width="1000" height="280" rx="18"/></clipPath>
+    <clipPath id="frame"><rect x="0" y="0" width="1000" height="300" rx="18"/></clipPath>
+    <clipPath id="ruleclip"><rect x="405" y="177" width="190" height="6" rx="3"/></clipPath>
   </defs>
 
-  <g clip-path="url(#card)">
-    <rect width="1000" height="280" fill="url(#bg)"/>
-    <rect width="1000" height="280" fill="url(#grid)"/>
-    <rect width="1000" height="280" fill="url(#glow)"/>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <rect width="1000" height="300" fill="url(#dots)"/>
 
-    <!-- slow diagonal sheen sweep -->
-    <g opacity="0.05">
-      <rect x="-320" y="-200" width="150" height="700" fill="url(#sheenG)" transform="rotate(20 792 132)">
-        <animate attributeName="x" values="-320;1120" dur="11s" repeatCount="indefinite"/>
-      </rect>
-    </g>
+  <ellipse cx="250" cy="60" rx="320" ry="210" fill="url(#a1)">
+    <animate attributeName="cx" values="250;300;250" dur="26s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="60;96;60" dur="26s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="760" cy="92" rx="300" ry="200" fill="url(#a2)">
+    <animate attributeName="cx" values="760;706;760" dur="34s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="92;54;92" dur="34s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="500" cy="300" rx="380" ry="220" fill="url(#a3)">
+    <animate attributeName="cx" values="500;556;500" dur="41s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="300;262;300" dur="41s" repeatCount="indefinite"/>
+  </ellipse>
 
-    <!-- ── rotating topology cluster ── -->
-    <g>
-      <!-- counter-rotating orbit rings -->
-      <g opacity="0.13">
-        <circle cx="792" cy="132" r="96" fill="none" stroke="#0891B2" stroke-width="1" stroke-dasharray="3 10">
-          <animateTransform attributeName="transform" type="rotate" from="0 792 132" to="360 792 132" dur="44s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="792" cy="132" r="132" fill="none" stroke="#4F46E5" stroke-width="1" stroke-dasharray="2 16">
-          <animateTransform attributeName="transform" type="rotate" from="360 792 132" to="0 792 132" dur="68s" repeatCount="indefinite"/>
-        </circle>
-      </g>
+  <circle cx="88" cy="315" r="1.6" fill="#0891B2" opacity="0">
+    <animate attributeName="cy" from="315" to="-15" dur="26s" begin="-3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.18;0.8;1" dur="26s" begin="-3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="152" cy="315" r="1.1" fill="#0891B2" opacity="0">
+    <animate attributeName="cy" from="315" to="-15" dur="31s" begin="-14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.18;0.8;1" dur="31s" begin="-14s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="214" cy="315" r="2.0" fill="#0891B2" opacity="0">
+    <animate attributeName="cy" from="315" to="-15" dur="23s" begin="-8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.18;0.8;1" dur="23s" begin="-8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="268" cy="315" r="1.2" fill="#0891B2" opacity="0">
+    <animate attributeName="cy" from="315" to="-15" dur="29s" begin="-19s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.18;0.8;1" dur="29s" begin="-19s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="338" cy="315" r="1.5" fill="#0891B2" opacity="0">
+    <animate attributeName="cy" from="315" to="-15" dur="34s" begin="-5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.18;0.8;1" dur="34s" begin="-5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="402" cy="315" r="1.0" fill="#0891B2" opacity="0">
+    <animate attributeName="cy" from="315" to="-15" dur="21s" begin="-11s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.18;0.8;1" dur="21s" begin="-11s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="466" cy="315" r="1.8" fill="#0891B2" opacity="0">
+    <animate attributeName="cy" from="315" to="-15" dur="27s" begin="-23s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.18;0.8;1" dur="27s" begin="-23s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="534" cy="315" r="1.2" fill="#0891B2" opacity="0">
+    <animate attributeName="cy" from="315" to="-15" dur="32s" begin="-7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.18;0.8;1" dur="32s" begin="-7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="598" cy="315" r="1.6" fill="#0891B2" opacity="0">
+    <animate attributeName="cy" from="315" to="-15" dur="24s" begin="-16s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.18;0.8;1" dur="24s" begin="-16s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="662" cy="315" r="1.1" fill="#0891B2" opacity="0">
+    <animate attributeName="cy" from="315" to="-15" dur="30s" begin="-2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.18;0.8;1" dur="30s" begin="-2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="726" cy="315" r="1.9" fill="#0891B2" opacity="0">
+    <animate attributeName="cy" from="315" to="-15" dur="22s" begin="-12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.18;0.8;1" dur="22s" begin="-12s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="790" cy="315" r="1.3" fill="#0891B2" opacity="0">
+    <animate attributeName="cy" from="315" to="-15" dur="35s" begin="-25s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.18;0.8;1" dur="35s" begin="-25s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="854" cy="315" r="1.5" fill="#0891B2" opacity="0">
+    <animate attributeName="cy" from="315" to="-15" dur="25s" begin="-9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.18;0.8;1" dur="25s" begin="-9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="918" cy="315" r="1.2" fill="#0891B2" opacity="0">
+    <animate attributeName="cy" from="315" to="-15" dur="28s" begin="-18s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" keyTimes="0;0.18;0.8;1" dur="28s" begin="-18s" repeatCount="indefinite"/>
+  </circle>
 
-      <!-- connector lines with travelling dashes -->
-      <g stroke="#0E7490" stroke-opacity="0.26" stroke-width="1.2" fill="none">
-        <line x1="740" y1="98" x2="810" y2="62" stroke-dasharray="3 7">
-          <animate attributeName="stroke-dashoffset" from="0" to="-50" dur="5s" repeatCount="indefinite"/>
-        </line>
-        <line x1="740" y1="98" x2="856" y2="138" stroke-dasharray="3 7">
-          <animate attributeName="stroke-dashoffset" from="0" to="-50" dur="6.5s" repeatCount="indefinite"/>
-        </line>
-        <line x1="810" y1="62" x2="856" y2="138" stroke-dasharray="3 7">
-          <animate attributeName="stroke-dashoffset" from="0" to="-50" dur="7.5s" repeatCount="indefinite"/>
-        </line>
-        <line x1="856" y1="138" x2="814" y2="196" stroke-dasharray="3 7">
-          <animate attributeName="stroke-dashoffset" from="0" to="-50" dur="5.8s" repeatCount="indefinite"/>
-        </line>
-        <line x1="810" y1="62" x2="900" y2="86" stroke-dasharray="3 7">
-          <animate attributeName="stroke-dashoffset" from="0" to="-50" dur="8.4s" repeatCount="indefinite"/>
-        </line>
-        <line x1="814" y1="196" x2="900" y2="86" stroke-dasharray="3 7">
-          <animate attributeName="stroke-dashoffset" from="0" to="-50" dur="9.2s" repeatCount="indefinite"/>
-        </line>
-      </g>
+  <rect x="-420" y="-40" width="300" height="380" fill="url(#sheen)" transform="rotate(14 0 0)">
+    <animate attributeName="x" values="-420;1120" dur="13s" repeatCount="indefinite"/>
+  </rect>
 
-      <!-- pulsing nodes -->
-      <g>
-        <circle cx="740" cy="98" r="5" fill="#0891B2">
-          <animate attributeName="r" values="5;7;5" dur="3.6s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="1;.6;1" dur="3.6s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="810" cy="62" r="4" fill="#4F46E5">
-          <animate attributeName="r" values="4;6;4" dur="4.2s" begin=".5s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="1;.6;1" dur="4.2s" begin=".5s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="856" cy="138" r="6" fill="#0891B2">
-          <animate attributeName="r" values="6;8.5;6" dur="3s" begin="1s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="1;.65;1" dur="3s" begin="1s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="814" cy="196" r="4" fill="#4F46E5">
-          <animate attributeName="r" values="4;6;4" dur="4.8s" begin=".2s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="1;.6;1" dur="4.8s" begin=".2s" repeatCount="indefinite"/>
-        </circle>
-        <circle cx="900" cy="86" r="3.5" fill="#0891B2">
-          <animate attributeName="r" values="3.5;5;3.5" dur="5.4s" begin="1.4s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="1;.6;1" dur="5.4s" begin="1.4s" repeatCount="indefinite"/>
-        </circle>
-      </g>
-    </g>
+  <text x="500" y="96" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+        font-size="12" font-weight="600" letter-spacing="4.2" fill="#0E7490">ASSOCIATE DEVOPS ENGINEER</text>
 
-    <!-- ── identity block ── -->
-    <text x="56" y="88" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="3.1" fill="#0E7490">ASSOCIATE DEVOPS ENGINEER</text>
-    <text x="56" y="146" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#0B1220" letter-spacing="-0.8">Hein Sitt Tun</text>
+  <text x="500" y="162" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+        font-size="54" font-weight="700" letter-spacing="-1.2" fill="#0A1020">Hein Sitt Tun</text>
 
-    <rect x="56" y="163" width="58" height="3" rx="1.5" fill="url(#rule)">
-      <animate attributeName="width" values="58;86;58" dur="7s" repeatCount="indefinite"/>
+  <rect x="405" y="178" width="190" height="3" rx="1.5" fill="url(#rule)"/>
+  <g clip-path="url(#ruleclip)">
+    <rect x="345" y="177" width="70" height="6" fill="#0EA5E9" opacity="0.85">
+      <animate attributeName="x" values="330;600" dur="4.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.85;0" dur="4.6s" repeatCount="indefinite"/>
     </rect>
-
-    <text x="56" y="198" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" fill="#475569">Cloud &amp; Automation · Infrastructure as Code · Observability</text>
-    <text x="56" y="226" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7C8899">Yangon, Myanmar · BIM ATS</text>
   </g>
 
-  <rect x="0.5" y="0.5" width="999" height="279" rx="18" fill="none" stroke="#0F172A" stroke-opacity="0.10"/>
+  <text x="500" y="218" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+        font-size="15" font-weight="400" fill="#4A586E">Cloud &amp; Automation · Infrastructure as Code · Observability</text>
+
+  <text x="500" y="248" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+        font-size="12.5" font-weight="500" letter-spacing="0.7" fill="#7A879B">Yangon, Myanmar</text>
+  </g>
+
+  <rect x="0.5" y="0.5" width="999" height="299" rx="18" fill="none" stroke="rgba(15,23,42,0.10)"/>
 </svg>
