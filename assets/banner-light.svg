@@ -1,85 +1,110 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="bannerTitle bannerDesc">
-  <title id="bannerTitle">Hein Sitt Tun — Associate DevOps Engineer</title>
-  <desc id="bannerDesc">Light hero banner: name, role, and focus areas alongside a cluster-topology motif representing infrastructure nodes and links.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
+  <title id="title">Hein Sitt Tun — Associate DevOps Engineer</title>
+  <desc id="desc">Banner with an animated rotating infrastructure topology motif beside the name, role and location of Hein Sitt Tun.</desc>
   <defs>
-    <linearGradient id="bgLight" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="0.52" stop-color="#F7FAFC"/>
-      <stop offset="1" stop-color="#EFF5F9"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F1F5FA"/>
     </linearGradient>
-
-    <radialGradient id="glowLight" cx="0.78" cy="0.34" r="0.62">
-      <stop offset="0" stop-color="#0E7490" stop-opacity="0.10"/>
-      <stop offset="0.55" stop-color="#4F46E5" stop-opacity="0.045"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    <radialGradient id="glow" cx="79%" cy="48%" r="46%">
+      <stop offset="0" stop-color="#DBEAFE" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#DBEAFE" stop-opacity="0"/>
     </radialGradient>
-
-    <linearGradient id="edgeLight" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0E7490" stop-opacity="0"/>
-      <stop offset="0.28" stop-color="#0E7490" stop-opacity="0.5"/>
-      <stop offset="0.72" stop-color="#4F46E5" stop-opacity="0.5"/>
-      <stop offset="1" stop-color="#4F46E5" stop-opacity="0"/>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0891B2"/><stop offset="1" stop-color="#4F46E5"/>
     </linearGradient>
-
-    <pattern id="gridLight" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#334155" stroke-opacity="0.06" stroke-width="1"/>
+    <linearGradient id="sheenG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0F172A" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#0F172A" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#0F172A" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#0F172A" stroke-opacity="0.05" stroke-width="1"/>
     </pattern>
-
-    <filter id="softLight" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="2.4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <clipPath id="card"><rect width="1000" height="280" rx="18"/></clipPath>
   </defs>
 
-  <rect width="1000" height="260" rx="16" fill="url(#bgLight)"/>
-  <rect width="1000" height="260" rx="16" fill="url(#gridLight)"/>
-  <rect width="1000" height="260" rx="16" fill="url(#glowLight)"/>
+  <g clip-path="url(#card)">
+    <rect width="1000" height="280" fill="url(#bg)"/>
+    <rect width="1000" height="280" fill="url(#grid)"/>
+    <rect width="1000" height="280" fill="url(#glow)"/>
 
-  <!-- ── Cluster topology motif ─────────────────────────────────────── -->
-  <g stroke="#0E7490" stroke-opacity="0.16" fill="none" stroke-width="1">
-    <circle cx="812" cy="128" r="86"/>
-    <circle cx="812" cy="128" r="126"/>
+    <!-- slow diagonal sheen sweep -->
+    <g opacity="0.05">
+      <rect x="-320" y="-200" width="150" height="700" fill="url(#sheenG)" transform="rotate(20 792 132)">
+        <animate attributeName="x" values="-320;1120" dur="11s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- ── rotating topology cluster ── -->
+    <g>
+      <!-- counter-rotating orbit rings -->
+      <g opacity="0.13">
+        <circle cx="792" cy="132" r="96" fill="none" stroke="#0891B2" stroke-width="1" stroke-dasharray="3 10">
+          <animateTransform attributeName="transform" type="rotate" from="0 792 132" to="360 792 132" dur="44s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="792" cy="132" r="132" fill="none" stroke="#4F46E5" stroke-width="1" stroke-dasharray="2 16">
+          <animateTransform attributeName="transform" type="rotate" from="360 792 132" to="0 792 132" dur="68s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+
+      <!-- connector lines with travelling dashes -->
+      <g stroke="#0E7490" stroke-opacity="0.26" stroke-width="1.2" fill="none">
+        <line x1="740" y1="98" x2="810" y2="62" stroke-dasharray="3 7">
+          <animate attributeName="stroke-dashoffset" from="0" to="-50" dur="5s" repeatCount="indefinite"/>
+        </line>
+        <line x1="740" y1="98" x2="856" y2="138" stroke-dasharray="3 7">
+          <animate attributeName="stroke-dashoffset" from="0" to="-50" dur="6.5s" repeatCount="indefinite"/>
+        </line>
+        <line x1="810" y1="62" x2="856" y2="138" stroke-dasharray="3 7">
+          <animate attributeName="stroke-dashoffset" from="0" to="-50" dur="7.5s" repeatCount="indefinite"/>
+        </line>
+        <line x1="856" y1="138" x2="814" y2="196" stroke-dasharray="3 7">
+          <animate attributeName="stroke-dashoffset" from="0" to="-50" dur="5.8s" repeatCount="indefinite"/>
+        </line>
+        <line x1="810" y1="62" x2="900" y2="86" stroke-dasharray="3 7">
+          <animate attributeName="stroke-dashoffset" from="0" to="-50" dur="8.4s" repeatCount="indefinite"/>
+        </line>
+        <line x1="814" y1="196" x2="900" y2="86" stroke-dasharray="3 7">
+          <animate attributeName="stroke-dashoffset" from="0" to="-50" dur="9.2s" repeatCount="indefinite"/>
+        </line>
+      </g>
+
+      <!-- pulsing nodes -->
+      <g>
+        <circle cx="740" cy="98" r="5" fill="#0891B2">
+          <animate attributeName="r" values="5;7;5" dur="3.6s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;.6;1" dur="3.6s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="810" cy="62" r="4" fill="#4F46E5">
+          <animate attributeName="r" values="4;6;4" dur="4.2s" begin=".5s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;.6;1" dur="4.2s" begin=".5s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="856" cy="138" r="6" fill="#0891B2">
+          <animate attributeName="r" values="6;8.5;6" dur="3s" begin="1s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;.65;1" dur="3s" begin="1s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="814" cy="196" r="4" fill="#4F46E5">
+          <animate attributeName="r" values="4;6;4" dur="4.8s" begin=".2s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;.6;1" dur="4.8s" begin=".2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="900" cy="86" r="3.5" fill="#0891B2">
+          <animate attributeName="r" values="3.5;5;3.5" dur="5.4s" begin="1.4s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="1;.6;1" dur="5.4s" begin="1.4s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+
+    <!-- ── identity block ── -->
+    <text x="56" y="88" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="3.1" fill="#0E7490">ASSOCIATE DEVOPS ENGINEER</text>
+    <text x="56" y="146" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#0B1220" letter-spacing="-0.8">Hein Sitt Tun</text>
+
+    <rect x="56" y="163" width="58" height="3" rx="1.5" fill="url(#rule)">
+      <animate attributeName="width" values="58;86;58" dur="7s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="56" y="198" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" fill="#475569">Cloud &amp; Automation · Infrastructure as Code · Observability</text>
+    <text x="56" y="226" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" fill="#7C8899">Yangon, Myanmar · BIM ATS</text>
   </g>
 
-  <g stroke="#0E7490" stroke-opacity="0.3" stroke-width="1.1" fill="none">
-    <path d="M672 108 L764 78"/>
-    <path d="M672 108 L790 148"/>
-    <path d="M764 78 L872 106"/>
-    <path d="M790 148 L872 106"/>
-    <path d="M790 148 L826 196"/>
-    <path d="M872 106 L930 158"/>
-    <path d="M826 196 L930 158"/>
-    <path d="M764 78 L826 196" stroke-opacity="0.14"/>
-  </g>
-
-  <g fill="#0E7490">
-    <circle cx="672" cy="108" r="4.5"/>
-    <circle cx="764" cy="78" r="3.5" fill="#4F46E5"/>
-    <circle cx="790" cy="148" r="4"/>
-    <circle cx="826" cy="196" r="3.2" fill="#4F46E5"/>
-    <circle cx="872" cy="106" r="5" filter="url(#softLight)"/>
-    <circle cx="930" cy="158" r="3.5" fill="#4F46E5"/>
-  </g>
-
-  <circle cx="872" cy="106" r="5" fill="none" stroke="#0E7490" stroke-width="1.2">
-    <animate attributeName="r" values="5;17;5" dur="4.2s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values="0.5;0;0.5" dur="4.2s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- ── Identity block ────────────────────────────────────────────── -->
-  <g font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif">
-    <text x="56" y="84" fill="#0E7490" font-size="11.5" font-weight="600" letter-spacing="3.4">ASSOCIATE DEVOPS ENGINEER</text>
-
-    <text x="56" y="139" fill="#0B1220" font-size="45" font-weight="700" letter-spacing="-0.6">Hein Sitt Tun</text>
-
-    <rect x="56" y="154" width="52" height="3" rx="1.5" fill="#0E7490"/>
-    <rect x="112" y="154" width="22" height="3" rx="1.5" fill="#4F46E5" opacity="0.7"/>
-
-    <text x="56" y="190" fill="#4A5A70" font-size="14.5" letter-spacing="0.2">Cloud &amp; Automation · Infrastructure as Code · Observability</text>
-
-    <text x="56" y="217" fill="#7A879A" font-size="12.5" letter-spacing="0.4">Yangon, Myanmar · BIM ATS</text>
-  </g>
-
-  <rect x="0" y="258" width="1000" height="2" fill="url(#edgeLight)"/>
+  <rect x="0.5" y="0.5" width="999" height="279" rx="18" fill="none" stroke="#0F172A" stroke-opacity="0.10"/>
 </svg>
