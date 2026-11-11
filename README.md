@@ -5,6 +5,8 @@
      secondary  #818CF8 dark / #4F46E5 light
      chips      #0F172A (uniform) + brand-coloured logo
      sections   rule → numbered eyebrow → prose
+     banner     live space field: starfield, nebula drift, orbits, comets,
+                satellite, planet arc (assets/gen_space_assets.py)
      ══════════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
