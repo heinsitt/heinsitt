@@ -2,16 +2,22 @@
   <title id="lt">Language breakdown — TypeScript 56.7%, HTML 32.7%, CSS 8.2%, JavaScript 2.2%, Other 0.1%</title>
   <desc id="ld">Byte-weighted language distribution across Hein Sitt's public repositories.</desc>
   <defs>
-    <linearGradient id="lbg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#101A2E"/>
+    <linearGradient id="lbg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#04060A"/>
+      <stop offset="100%" stop-color="#0A0D13"/>
     </linearGradient>
     <pattern id="lgrid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
     </pattern>
     <linearGradient id="lsheen" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#FFFFFF" stop-opacity=".28"/>
+      <stop offset=".5" stop-color="#FFFFFF" stop-opacity="0.55"/>
       <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lhead" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF3B30" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#FF3B30" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FF3B30" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="lbar"><rect x="40" y="74" width="920" height="16" rx="8"/></clipPath>
     <clipPath id="lcard"><rect width="1000" height="212" rx="18"/></clipPath>
@@ -20,38 +26,39 @@
   <g clip-path="url(#lcard)">
     <rect width="1000" height="212" fill="url(#lbg)"/>
     <rect width="1000" height="212" fill="url(#lgrid)"/>
+    <path d="M30 26 V18 H38 M970 26 V18 H962 M30 186 V194 H38 M970 186 V194 H962" fill="none" stroke="#FF3B30" stroke-opacity="0.55" stroke-width="1.4"/>
 
-    <text x="40" y="46" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="700" fill="#F8FAFC">Language breakdown</text>
-    <text x="960" y="46" text-anchor="end" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" fill="#6B7C91">18 public repositories   ·   1.4 MB   ·   GitHub Linguist</text>
+    <text x="40" y="46" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="700" letter-spacing="0.2" fill="#F2F4F8">Language breakdown</text>
+    <text x="960" y="46" text-anchor="end" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#7A8493">18 public repositories   ·   1.4 MB   ·   GitHub Linguist</text>
+    <rect x="40" y="57" width="920" height="1" fill="url(#lhead)"/>
 
-    <rect x="40" y="74" width="920" height="16" rx="8" fill="#1B2740"/>
+    <rect x="40" y="74" width="920" height="16" rx="8" fill="#1A1F27"/>
     <g clip-path="url(#lbar)">
-      <rect x="40.00" y="74" width="521.72" height="16" fill="#3178C6"/>
-      <rect x="561.72" y="74" width="301.21" height="16" fill="#E34F26"/>
-      <rect x="862.93" y="74" width="75.45" height="16" fill="#663399"/>
-      <rect x="938.38" y="74" width="20.60" height="16" fill="#F7DF1E"/>
-      <rect x="958.98" y="74" width="1.02" height="16" fill="#334155"/>
-      <rect x="-260" y="70" width="150" height="24" fill="url(#lsheen)" opacity="0.35">
+      <rect x="40.00" y="74" width="521.64" height="16" fill="#3178C6"/>
+      <rect x="561.64" y="74" width="300.84" height="16" fill="#E34F26"/>
+      <rect x="862.48" y="74" width="75.44" height="16" fill="#663399"/>
+      <rect x="937.92" y="74" width="20.24" height="16" fill="#F7DF1E"/>
+      <rect x="958.16" y="74" width="1.84" height="16" fill="#5A6674" opacity="0.6"/>
+      <rect x="-260" y="70" width="150" height="24" fill="url(#lsheen)" opacity="0.30">
         <animate attributeName="x" values="-260;1020" dur="7.5s" repeatCount="indefinite"/>
       </rect>
     </g>
-
     <circle cx="45.0" cy="142.0" r="5" fill="#3178C6"/>
-    <text x="60.0" y="146" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#C9D1D9">TypeScript</text>
-    <text x="60.0" y="162.0" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8B97A8">56.7%</text>
+    <text x="60.0" y="138.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F2F4F8">TypeScript</text>
+    <text x="60.0" y="154.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#7A8493">56.7%</text>
     <circle cx="351.7" cy="142.0" r="5" fill="#E34F26"/>
-    <text x="366.7" y="146" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#C9D1D9">HTML</text>
-    <text x="366.7" y="162.0" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8B97A8">32.7%</text>
+    <text x="366.7" y="138.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F2F4F8">HTML</text>
+    <text x="366.7" y="154.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#7A8493">32.7%</text>
     <circle cx="658.3" cy="142.0" r="5" fill="#663399"/>
-    <text x="673.3" y="146" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#C9D1D9">CSS</text>
-    <text x="673.3" y="162.0" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8B97A8">8.2%</text>
+    <text x="673.3" y="138.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F2F4F8">CSS</text>
+    <text x="673.3" y="154.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#7A8493">8.2%</text>
     <circle cx="45.0" cy="182.0" r="5" fill="#F7DF1E"/>
-    <text x="60.0" y="186" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#C9D1D9">JavaScript</text>
-    <text x="60.0" y="202.0" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8B97A8">2.2%</text>
-    <circle cx="351.7" cy="182.0" r="5" fill="#334155"/>
-    <text x="366.7" y="186" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#C9D1D9">Other</text>
-    <text x="366.7" y="202.0" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" fill="#8B97A8">0.1%</text>
+    <text x="60.0" y="178.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F2F4F8">JavaScript</text>
+    <text x="60.0" y="194.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#7A8493">2.2%</text>
+    <circle cx="351.7" cy="182.0" r="5" fill="#5A6674"/>
+    <text x="366.7" y="178.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#F2F4F8">Other</text>
+    <text x="366.7" y="194.0" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#7A8493">0.1%</text>
   </g>
 
-  <rect x="0.5" y="0.5" width="999" height="211" rx="18" fill="none" stroke="#FFFFFF" stroke-opacity="0.10"/>
+  <rect x="0.5" y="0.5" width="999" height="211" rx="18" fill="none" stroke="rgba(255,255,255,0.09)"/>
 </svg>
