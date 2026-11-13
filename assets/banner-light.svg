@@ -1,170 +1,118 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="ttl dsc">
-  <title id="ttl">Hein Sitt Tun — Associate DevOps Engineer</title>
-  <desc id="dsc">Ultron-inspired profile banner: a crimson visor on dark armour plates, with Hein Sitt Tun, Associate DevOps Engineer, Cloud and Automation, Infrastructure as Code, Observability, Yangon, Myanmar.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="bt bd">
+  <title id="bt">Hein Sitt Tun, Associate DevOps Engineer, with a live DevOps infinity loop</title>
+  <desc id="bd">Blueprint panel: name and role on the left, and on the right an eight phase DevOps loop drawn as coloured arrow segments that flow continuously around the figure eight.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0.3" y2="1">
-      <stop offset="0%" stop-color="#F2F4F7"/>
-      <stop offset="55%" stop-color="#E7EBF0"/>
-      <stop offset="100%" stop-color="#F7F9FB"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7F9FC"/>
+      <stop offset=".55" stop-color="#EDF2F8"/>
+      <stop offset="1" stop-color="#F9FBFD"/>
     </linearGradient>
-    <linearGradient id="plate" x1="0" y1="0" x2="0.2" y2="1">
-      <stop offset="0%" stop-color="#E7ECF2"/>
-      <stop offset="100%" stop-color="#CFD7E1"/>
-    </linearGradient>
-    <linearGradient id="visor" x1="0" y1="0" x2="0.15" y2="1">
-      <stop offset="0%" stop-color="#1B2129"/>
-      <stop offset="100%" stop-color="#0C1015"/>
-    </linearGradient>
-    <radialGradient id="bloom" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="rgb(200,30,30)" stop-opacity="0.38"/>
-      <stop offset="55%" stop-color="rgb(200,30,30)" stop-opacity="0.084"/>
-      <stop offset="100%" stop-color="rgb(200,30,30)" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="hot" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#FFF3F0"/>
-      <stop offset="45%" stop-color="#B32020"/>
-      <stop offset="100%" stop-color="#8E1B18"/>
-    </radialGradient>
-    <linearGradient id="seam" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#B32020" stop-opacity="0"/>
-      <stop offset="18%" stop-color="#B32020" stop-opacity="0.55"/>
-      <stop offset="82%" stop-color="#B32020" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#B32020" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#B32020" stop-opacity="0"/>
-      <stop offset="14%" stop-color="#B32020" stop-opacity="0.5"/>
-      <stop offset="50%" stop-color="#B32020" stop-opacity="0.9"/>
-      <stop offset="86%" stop-color="#B32020" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#B32020" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="scanfade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#B32020" stop-opacity="0"/>
-      <stop offset="60%" stop-color="#B32020" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#B32020" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse">
-      <path d="M-1 1 L1 -1 M0 9 L9 0 M8 10 L10 8" fill="none" stroke="#0B0D12" stroke-opacity="0.035" stroke-width="1"/>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M25 0H0V25" fill="none" stroke="#5C7A93" stroke-opacity="0.075" stroke-width="1"/>
     </pattern>
-    <radialGradient id="vig" cx="50%" cy="46%" r="72%">
-      <stop offset="45%" stop-color="#0B0D12" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#0B0D12" stop-opacity="0.06"/>
+    <pattern id="dots" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="50" cy="50" r="1.1" fill="#5C7A93" fill-opacity="0.165"/>
+    </pattern>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.000" stop-color="#0284C7"/><stop offset="0.143" stop-color="#7C3AED"/><stop offset="0.286" stop-color="#B45309"/><stop offset="0.429" stop-color="#15803D"/><stop offset="0.571" stop-color="#0F766E"/><stop offset="0.714" stop-color="#BE185D"/><stop offset="0.857" stop-color="#BE123C"/><stop offset="1.000" stop-color="#4D7C0F"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="50%" cy="45%" r="72%">
+      <stop offset="45%" stop-color="#0A0E14" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0A0E14" stop-opacity="0.05"/>
     </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
     <clipPath id="frame"><rect width="1000" height="300" rx="18"/></clipPath>
   </defs>
 
   <g clip-path="url(#frame)">
     <rect width="1000" height="300" fill="url(#bg)"/>
-    <rect width="1000" height="300" fill="url(#hatch)"/>
-    <path d="M0 0 H126 L74 78 L92 150 L0 196 Z" fill="url(#plate)"/>
-    <path d="M126 0 L74 78 L92 150 L0 196" fill="none" stroke="url(#seam)" stroke-width="1.6"/>
-    <path d="M1000 0 H874 L926 78 L908 150 L1000 196 Z" fill="url(#plate)"/>
-    <path d="M874 0 L926 78 L908 150 L1000 196" fill="none" stroke="url(#seam)" stroke-width="1.6"/>
-    <circle cx="74" cy="26" r="1.7" fill="#8A94A2" opacity="0.55"/>
-    <circle cx="86" cy="62" r="1.7" fill="#8A94A2" opacity="0.55"/>
-    <circle cx="92" cy="118" r="1.7" fill="#8A94A2" opacity="0.55"/>
-    <circle cx="30" cy="168" r="1.7" fill="#8A94A2" opacity="0.55"/>
-    <circle cx="926" cy="26" r="1.7" fill="#8A94A2" opacity="0.55"/>
-    <circle cx="914" cy="62" r="1.7" fill="#8A94A2" opacity="0.55"/>
-    <circle cx="908" cy="118" r="1.7" fill="#8A94A2" opacity="0.55"/>
-    <circle cx="970" cy="168" r="1.7" fill="#8A94A2" opacity="0.55"/>
-    <ellipse cx="500" cy="54" rx="214" ry="66" fill="url(#bloom)" opacity="0.55"/>
-    <path d="M368 26 H632 L660 54 L632 82 H368 L340 54 Z" fill="url(#visor)" stroke="#B6BEC9" stroke-width="1.3"/>
-    <path d="M368 26 H632 L660 54 L632 82 H368 L340 54 Z" fill="none" stroke="#B32020" stroke-opacity="0.30" stroke-width="1"/>
-    <path d="M352 54 H402 M598 54 H648" stroke="#B32020" stroke-opacity="0.55" stroke-width="1.4"/>
-      <ellipse cx="462" cy="54" rx="76" ry="34" fill="url(#bloom)" opacity="0.9"/>
-      <g transform="rotate(-7 462 54)">
-        <rect x="435" y="48" width="54" height="12" rx="6" fill="#B32020" opacity="0.35"/>
-        <rect x="439" y="49.5" width="46" height="9" rx="4.5" fill="url(#hot)">
-          <animate attributeName="opacity" values="1;1;0.74;1;0.9;1" keyTimes="0;0.42;0.46;0.5;0.86;1" dur="7.4s" repeatCount="indefinite"/>
-        </rect>
-      </g>
-      <ellipse cx="538" cy="54" rx="76" ry="34" fill="url(#bloom)" opacity="0.9"/>
-      <g transform="rotate(7 538 54)">
-        <rect x="511" y="48" width="54" height="12" rx="6" fill="#B32020" opacity="0.35"/>
-        <rect x="515" y="49.5" width="46" height="9" rx="4.5" fill="url(#hot)">
-          <animate attributeName="opacity" values="1;1;0.74;1;0.9;1" keyTimes="0;0.42;0.46;0.5;0.86;1" dur="7.4s" repeatCount="indefinite"/>
-        </rect>
-      </g>
-    <path d="M420 92 H580" stroke="url(#seam)" stroke-width="1" opacity="0.45"/>
-    <path d="M0 264 H108 L136 236 H238" fill="none" stroke="#B32020" stroke-opacity="0.22" stroke-width="1.2"/>
-    <circle cx="238" cy="236" r="2.6" fill="#B32020" opacity="0.5"/>
-    <path d="M1000 270 H884 L856 242 H754" fill="none" stroke="#B32020" stroke-opacity="0.22" stroke-width="1.2"/>
-    <circle cx="754" cy="242" r="2.6" fill="#B32020" opacity="0.5"/>
-    <path d="M0 264 H108 L136 236 H238" fill="none" stroke="#B32020" stroke-opacity="0.9" stroke-width="1.6" stroke-dasharray="14 260">
-      <animate attributeName="stroke-dashoffset" values="280;-40" dur="5.5s" repeatCount="indefinite"/>
-    </path>
-    <path d="M1000 270 H884 L856 242 H754" fill="none" stroke="#B32020" stroke-opacity="0.9" stroke-width="1.6" stroke-dasharray="14 260">
-      <animate attributeName="stroke-dashoffset" values="280;-40" dur="6.8s" begin="-2.4s" repeatCount="indefinite"/>
-    </path>
-    <circle cx="257.1" cy="310" r="1.91" fill="#C2410C" opacity="0">
-      <animate attributeName="cy" values="310;196" dur="13.4s" begin="-6.6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0.55;0" keyTimes="0;0.18;0.7;1" dur="13.4s" begin="-6.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="456.4" cy="310" r="1.34" fill="#C2410C" opacity="0">
-      <animate attributeName="cy" values="310;196" dur="14.6s" begin="-10.0s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0.55;0" keyTimes="0;0.18;0.7;1" dur="14.6s" begin="-10.0s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="301.3" cy="310" r="1.99" fill="#C2410C" opacity="0">
-      <animate attributeName="cy" values="310;196" dur="13.3s" begin="-1.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0.55;0" keyTimes="0;0.18;0.7;1" dur="13.3s" begin="-1.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="149.1" cy="310" r="1.14" fill="#C2410C" opacity="0">
-      <animate attributeName="cy" values="310;196" dur="14.5s" begin="-1.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0.55;0" keyTimes="0;0.18;0.7;1" dur="14.5s" begin="-1.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="828.7" cy="310" r="1.72" fill="#C2410C" opacity="0">
-      <animate attributeName="cy" values="310;196" dur="13.9s" begin="-4.9s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0.55;0" keyTimes="0;0.18;0.7;1" dur="13.9s" begin="-4.9s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="329.4" cy="310" r="1.56" fill="#C2410C" opacity="0">
-      <animate attributeName="cy" values="310;196" dur="10.8s" begin="-4.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0.55;0" keyTimes="0;0.18;0.7;1" dur="10.8s" begin="-4.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="258.3" cy="310" r="1.63" fill="#C2410C" opacity="0">
-      <animate attributeName="cy" values="310;196" dur="13.0s" begin="-12.0s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0.55;0" keyTimes="0;0.18;0.7;1" dur="13.0s" begin="-12.0s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="715.4" cy="310" r="1.0" fill="#C2410C" opacity="0">
-      <animate attributeName="cy" values="310;196" dur="13.3s" begin="-1.4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0.55;0" keyTimes="0;0.18;0.7;1" dur="13.3s" begin="-1.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="553.1" cy="310" r="1.21" fill="#C2410C" opacity="0">
-      <animate attributeName="cy" values="310;196" dur="14.5s" begin="-11.3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0.55;0" keyTimes="0;0.18;0.7;1" dur="14.5s" begin="-11.3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="959.2" cy="310" r="1.01" fill="#C2410C" opacity="0">
-      <animate attributeName="cy" values="310;196" dur="11.2s" begin="-1.0s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0.55;0" keyTimes="0;0.18;0.7;1" dur="11.2s" begin="-1.0s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="367.0" cy="310" r="1.7" fill="#C2410C" opacity="0">
-      <animate attributeName="cy" values="310;196" dur="9.3s" begin="-8.1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0.55;0" keyTimes="0;0.18;0.7;1" dur="9.3s" begin="-8.1s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="443.0" cy="310" r="1.9" fill="#C2410C" opacity="0">
-      <animate attributeName="cy" values="310;196" dur="14.1s" begin="-8.6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0.55;0" keyTimes="0;0.18;0.7;1" dur="14.1s" begin="-8.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="269.8" cy="310" r="1.89" fill="#C2410C" opacity="0">
-      <animate attributeName="cy" values="310;196" dur="12.3s" begin="-4.9s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0.55;0" keyTimes="0;0.18;0.7;1" dur="12.3s" begin="-4.9s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="673.0" cy="310" r="1.32" fill="#C2410C" opacity="0">
-      <animate attributeName="cy" values="310;196" dur="13.0s" begin="-3.6s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0;0.85;0.55;0" keyTimes="0;0.18;0.7;1" dur="13.0s" begin="-3.6s" repeatCount="indefinite"/>
-    </circle>
-    <text x="500" y="122" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="4.2" fill="#9E1B1B">ASSOCIATE DEVOPS ENGINEER</text>
-    <text x="500" y="180" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-0.6" fill="#0B0D12">Hein Sitt Tun</text>
-    <rect x="352" y="195" width="296" height="1.6" fill="url(#title)"/>
-    <path d="M500 191.5 L504.5 196 L500 200.5 L495.5 196 Z" fill="#B32020">
-      <animate attributeName="opacity" values="0.55;1;0.55" dur="3.6s" repeatCount="indefinite"/>
-    </path>
-    <text x="500" y="228" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" letter-spacing="0.2" fill="#3D4855">Cloud &amp; Automation · Infrastructure as Code · Observability</text>
-    <text x="500" y="256" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" letter-spacing="0.9" fill="#5E6A79">Yangon, Myanmar</text>
-    <rect x="0" y="-44" width="1000" height="44" fill="url(#scanfade)" opacity="0.28">
-      <animate attributeName="y" values="-44;300" dur="8.5s" repeatCount="indefinite"/>
-    </rect>
+    <rect width="1000" height="300" fill="url(#grid)"/>
+    <rect width="1000" height="300" fill="url(#dots)"/>
     <rect width="1000" height="300" fill="url(#vig)"/>
-    <rect x="0.5" y="0.5" width="999" height="299" rx="18" fill="none" stroke="rgba(11,13,18,0.10)"/>
+
+    <!-- loop glow -->
+    <path d="M902.00 148.00 L901.97 151.00 L901.89 154.00 L901.76 157.00 L901.57 159.99 L901.32 162.98 L901.02 165.97 L900.66 168.95 L900.24 171.92 L899.76 174.88 L899.23 177.84 L898.62 180.78 L897.96 183.70 L897.22 186.61 L896.42 189.50 L895.54 192.37 L894.59 195.22 L893.56 198.04 L892.45 200.82 L891.24 203.57 L889.95 206.28 L888.56 208.94 L887.07 211.54 L885.47 214.08 L883.76 216.55 L881.94 218.93 L879.99 221.22 L877.93 223.39 L875.73 225.44 L873.41 227.34 L870.97 229.09 L868.42 230.66 L865.76 232.04 L863.00 233.22 L860.16 234.20 L857.26 234.96 L854.31 235.50 L851.33 235.85 L848.33 235.99 L845.33 235.95 L842.34 235.74 L839.36 235.36 L836.40 234.84 L833.48 234.18 L830.58 233.41 L827.71 232.52 L824.88 231.53 L822.08 230.45 L819.31 229.29 L816.58 228.05 L813.87 226.75 L811.20 225.39 L808.56 223.97 L805.94 222.49 L803.35 220.97 L800.79 219.41 L798.26 217.81 L795.74 216.17 L793.25 214.50 L790.78 212.79 L788.33 211.06 L785.90 209.30 L783.49 207.51 L781.10 205.70 L778.72 203.87 L776.36 202.02 L774.01 200.15 L771.67 198.27 L769.35 196.36 L767.04 194.45 L764.75 192.51 L762.46 190.57 L760.19 188.61 L757.92 186.65 L755.66 184.67 L753.42 182.68 L751.18 180.68 L748.94 178.68 L746.72 176.67 L744.50 174.65 L742.28 172.62 L740.07 170.59 L737.87 168.55 L735.67 166.51 L733.48 164.46 L731.28 162.41 L729.10 160.36 L726.91 158.31 L724.73 156.25 L722.54 154.19 L720.36 152.13 L718.18 150.06 L716.00 148.00 L713.82 145.94 L711.64 143.88 L709.46 141.82 L707.28 139.76 L705.09 137.70 L702.91 135.64 L700.72 133.59 L698.53 131.54 L696.33 129.49 L694.13 127.45 L691.93 125.41 L689.72 123.38 L687.51 121.36 L685.29 119.34 L683.06 117.32 L680.83 115.32 L678.59 113.32 L676.34 111.34 L674.08 109.36 L671.82 107.39 L669.54 105.43 L667.26 103.49 L664.96 101.56 L662.65 99.64 L660.33 97.74 L658.00 95.85 L655.65 93.98 L653.29 92.13 L650.91 90.30 L648.51 88.49 L646.10 86.71 L643.67 84.95 L641.22 83.21 L638.75 81.51 L636.26 79.83 L633.75 78.19 L631.21 76.59 L628.65 75.03 L626.06 73.51 L623.45 72.04 L620.80 70.61 L618.13 69.25 L615.43 67.95 L612.69 66.71 L609.93 65.55 L607.13 64.47 L604.29 63.48 L601.43 62.60 L598.53 61.82 L595.60 61.16 L592.65 60.64 L589.67 60.26 L586.68 60.05 L583.68 60.01 L580.68 60.15 L577.70 60.49 L574.75 61.04 L571.85 61.80 L569.01 62.77 L566.25 63.96 L563.59 65.34 L561.03 66.91 L558.59 68.65 L556.27 70.56 L554.08 72.61 L552.01 74.78 L550.06 77.06 L548.24 79.45 L546.53 81.91 L544.93 84.45 L543.44 87.06 L542.05 89.72 L540.76 92.42 L539.56 95.17 L538.44 97.96 L537.41 100.78 L536.46 103.62 L535.58 106.49 L534.78 109.38 L534.04 112.29 L533.38 115.22 L532.78 118.16 L532.24 121.11 L531.76 124.07 L531.34 127.05 L530.98 130.03 L530.68 133.01 L530.44 136.00 L530.24 139.00 L530.11 141.99 L530.03 144.99 L530.00 148.00 L530.03 151.00 L530.11 154.00 L530.24 156.99 L530.43 159.99 L530.68 162.98 L530.98 165.96 L531.34 168.94 L531.76 171.92 L532.24 174.88 L532.77 177.83 L533.38 180.77 L534.04 183.70 L534.78 186.61 L535.58 189.50 L536.45 192.37 L537.41 195.21 L538.44 198.03 L539.55 200.82 L540.75 203.57 L542.05 206.28 L543.44 208.93 L544.93 211.54 L546.53 214.08 L548.23 216.55 L550.06 218.93 L552.00 221.21 L554.07 223.39 L556.26 225.44 L558.58 227.34 L561.02 229.09 L563.58 230.66 L566.24 232.04 L569.00 233.22 L571.84 234.19 L574.74 234.96 L577.69 235.50 L580.67 235.85 L583.67 235.99 L586.67 235.95 L589.66 235.74 L592.64 235.36 L595.59 234.84 L598.52 234.18 L601.42 233.41 L604.28 232.52 L607.12 231.53 L609.92 230.45 L612.68 229.29 L615.42 228.06 L618.12 226.75 L620.80 225.39 L623.44 223.97 L626.05 222.50 L628.64 220.98 L631.20 219.41 L633.74 217.81 L636.25 216.17 L638.74 214.50 L641.21 212.79 L643.66 211.06 L646.09 209.30 L648.50 207.51 L650.90 205.70 L653.28 203.87 L655.64 202.02 L657.99 200.15 L660.32 198.27 L662.64 196.37 L664.95 194.45 L667.25 192.52 L669.53 190.57 L671.81 188.62 L674.08 186.65 L676.33 184.67 L678.58 182.68 L680.82 180.69 L683.05 178.68 L685.28 176.67 L687.50 174.65 L689.71 172.62 L691.92 170.59 L694.13 168.55 L696.32 166.51 L698.52 164.47 L700.71 162.42 L702.90 160.36 L705.09 158.31 L707.27 156.25 L709.45 154.19 L711.63 152.13 L713.81 150.07 L715.99 148.01 L718.17 145.94 L720.35 143.88 L722.54 141.82 L724.72 139.76 L726.90 137.70 L729.09 135.65 L731.28 133.59 L733.47 131.54 L735.66 129.50 L737.86 127.46 L740.07 125.42 L742.28 123.39 L744.49 121.36 L746.71 119.34 L748.94 117.33 L751.17 115.32 L753.41 113.33 L755.66 111.34 L757.91 109.36 L760.18 107.39 L762.45 105.44 L764.74 103.49 L767.04 101.56 L769.35 99.64 L771.67 97.74 L774.00 95.85 L776.35 93.99 L778.71 92.14 L781.09 90.30 L783.48 88.50 L785.89 86.71 L788.32 84.95 L790.77 83.22 L793.24 81.51 L795.73 79.84 L798.25 78.20 L800.78 76.59 L803.35 75.03 L805.93 73.51 L808.55 72.04 L811.19 70.62 L813.86 69.25 L816.57 67.95 L819.30 66.71 L822.07 65.55 L824.87 64.47 L827.70 63.49 L830.57 62.60 L833.47 61.82 L836.40 61.16 L839.35 60.64 L842.33 60.26 L845.32 60.05 L848.32 60.01 L851.32 60.15 L854.30 60.49 L857.25 61.04 L860.15 61.80 L862.99 62.77 L865.75 63.95 L868.41 65.33 L870.97 66.90 L873.41 68.65 L875.73 70.55 L877.92 72.60 L879.99 74.78 L881.93 77.06 L883.76 79.44 L885.47 81.91 L887.06 84.45 L888.56 87.05 L889.95 89.71 L891.24 92.42 L892.44 95.17 L893.56 97.95 L894.59 100.77 L895.54 103.62 L896.42 106.49 L897.22 109.38 L897.95 112.29 L898.62 115.21 L899.22 118.15 L899.76 121.11 L900.24 124.07 L900.66 127.04 L901.02 130.02 L901.32 133.01 L901.56 136.00 L901.76 138.99 L901.89 141.99 L901.97 144.99 L902.00 147.99" fill="none" stroke="rgba(255,255,255,0.05)"
+          stroke-width="30" stroke-linecap="round" filter="url(#soft)"/>
+
+    <!-- the eight phase segments -->
+    <path d="M901.81 156.00 L901.63 159.04 L901.40 162.09 L901.11 165.12 L900.76 168.15 L900.35 171.18 L899.88 174.19 L899.35 177.20 L898.75 180.19 L898.08 183.17 L897.35 186.13 L896.55 189.07 L895.66 191.99 L894.71 194.89 L893.67 197.76 L892.54 200.59 L891.33 203.39 L890.02 206.15 L888.61 208.85 L887.09 211.50 L885.47 214.08 L883.73 216.59 L881.88 219.01 L879.89 221.33 L877.78 223.53 L875.54 225.60 L873.17 227.53 L870.68 229.28 L868.07 230.86 L865.35 232.23 L862.53 233.40 L859.63 234.35 L856.67 235.08 L853.66 235.60 L850.63 235.90 L847.58 236.00 L844.53 235.91 L841.49 235.65 L838.47 235.22 L835.47 234.64 L832.50 233.93" fill="none" stroke="#0284C7" stroke-width="22" stroke-linecap="round"/>
+        <path d="M823.22 231.93 L830.80 241.83 L834.21 226.04 Z" fill="#0284C7"/>
+    <path d="M817.49 228.48 L814.73 227.17 L812.00 225.80 L809.30 224.38 L806.64 222.89 L804.00 221.36 L801.39 219.78 L798.80 218.16 L796.24 216.50 L793.71 214.80 L791.19 213.08 L788.70 211.32 L786.23 209.53 L783.77 207.72 L781.33 205.88 L778.92 204.02 L776.51 202.14 L774.12 200.24 L771.75 198.33 L769.39 196.39 L767.04 194.44 L764.71 192.48 L762.38 190.50 L760.07 188.51 L757.77 186.51 L755.47 184.50 L753.19 182.48 L750.91 180.45 L748.64 178.41 L746.38 176.36 L744.12 174.31 L741.88 172.25 L739.63 170.18 L737.39 168.11 L735.16 166.03 L732.93 163.95 L730.70 161.86 L728.47 159.78 L726.25 157.68 L724.03 155.59 L721.81 153.50" fill="none" stroke="#7C3AED" stroke-width="22" stroke-linecap="round"/>
+        <path d="M714.90 146.98 L716.27 159.37 L727.35 147.62 Z" fill="#7C3AED"/>
+    <path d="M710.19 142.50 L707.97 140.41 L705.75 138.32 L703.53 136.22 L701.30 134.14 L699.07 132.05 L696.84 129.97 L694.61 127.89 L692.37 125.82 L690.12 123.75 L687.88 121.69 L685.62 119.64 L683.36 117.59 L681.09 115.55 L678.81 113.52 L676.53 111.50 L674.23 109.49 L671.93 107.49 L669.62 105.50 L667.29 103.52 L664.96 101.56 L662.61 99.61 L660.25 97.67 L657.88 95.76 L655.49 93.86 L653.08 91.98 L650.67 90.12 L648.23 88.28 L645.77 86.47 L643.30 84.68 L640.81 82.92 L638.29 81.20 L635.76 79.50 L633.20 77.84 L630.61 76.22 L628.00 74.64 L625.36 73.11 L622.70 71.62 L620.00 70.20 L617.27 68.83 L614.51 67.52" fill="none" stroke="#B45309" stroke-width="22" stroke-linecap="round"/>
+        <path d="M605.97 63.37 L610.98 74.79 L618.05 60.26 Z" fill="#B45309"/>
+    <path d="M599.50 62.07 L596.53 61.36 L593.53 60.78 L590.51 60.35 L587.47 60.09 L584.42 60.00 L581.37 60.10 L578.34 60.40 L575.33 60.92 L572.37 61.65 L569.47 62.60 L566.65 63.77 L563.93 65.14 L561.32 66.72 L558.83 68.47 L556.46 70.40 L554.22 72.47 L552.11 74.67 L550.12 76.99 L548.27 79.41 L546.53 81.92 L544.91 84.50 L543.39 87.15 L541.98 89.85 L540.67 92.61 L539.46 95.41 L538.33 98.24 L537.29 101.11 L536.34 104.01 L535.45 106.93 L534.65 109.87 L533.92 112.83 L533.25 115.81 L532.65 118.80 L532.12 121.81 L531.65 124.82 L531.24 127.85 L530.89 130.88 L530.60 133.91 L530.37 136.96 L530.19 140.00" fill="none" stroke="#15803D" stroke-width="22" stroke-linecap="round"/>
+        <path d="M529.56 149.48 L538.25 140.54 L522.14 139.47 Z" fill="#15803D"/>
+    <path d="M530.19 156.00 L530.37 159.04 L530.60 162.09 L530.89 165.12 L531.24 168.15 L531.65 171.18 L532.12 174.19 L532.65 177.20 L533.25 180.19 L533.92 183.17 L534.65 186.13 L535.45 189.07 L536.34 191.99 L537.29 194.89 L538.33 197.76 L539.46 200.59 L540.67 203.39 L541.98 206.15 L543.39 208.85 L544.91 211.50 L546.53 214.08 L548.27 216.59 L550.12 219.01 L552.11 221.33 L554.22 223.53 L556.46 225.60 L558.83 227.53 L561.32 229.28 L563.93 230.86 L566.65 232.23 L569.47 233.40 L572.37 234.35 L575.33 235.08 L578.34 235.60 L581.37 235.90 L584.42 236.00 L587.47 235.91 L590.51 235.65 L593.53 235.22 L596.53 234.64 L599.50 233.93" fill="none" stroke="#0F766E" stroke-width="22" stroke-linecap="round"/>
+        <path d="M608.78 231.93 L597.79 226.04 L601.20 241.83 Z" fill="#0F766E"/>
+    <path d="M614.51 228.48 L617.27 227.17 L620.00 225.80 L622.70 224.38 L625.36 222.89 L628.00 221.36 L630.61 219.78 L633.20 218.16 L635.76 216.50 L638.29 214.80 L640.81 213.08 L643.30 211.32 L645.77 209.53 L648.23 207.72 L650.67 205.88 L653.08 204.02 L655.49 202.14 L657.88 200.24 L660.25 198.33 L662.61 196.39 L664.96 194.44 L667.29 192.48 L669.62 190.50 L671.93 188.51 L674.23 186.51 L676.53 184.50 L678.81 182.48 L681.09 180.45 L683.36 178.41 L685.62 176.36 L687.88 174.31 L690.12 172.25 L692.37 170.18 L694.61 168.11 L696.84 166.03 L699.07 163.95 L701.30 161.86 L703.53 159.78 L705.75 157.68 L707.97 155.59 L710.19 153.50" fill="none" stroke="#BE185D" stroke-width="22" stroke-linecap="round"/>
+        <path d="M717.10 146.98 L704.65 147.62 L715.73 159.37 Z" fill="#BE185D"/>
+    <path d="M721.81 142.50 L724.03 140.41 L726.25 138.32 L728.47 136.22 L730.70 134.14 L732.93 132.05 L735.16 129.97 L737.39 127.89 L739.63 125.82 L741.88 123.75 L744.12 121.69 L746.38 119.64 L748.64 117.59 L750.91 115.55 L753.19 113.52 L755.47 111.50 L757.77 109.49 L760.07 107.49 L762.38 105.50 L764.71 103.52 L767.04 101.56 L769.39 99.61 L771.75 97.67 L774.12 95.76 L776.51 93.86 L778.92 91.98 L781.33 90.12 L783.77 88.28 L786.23 86.47 L788.70 84.68 L791.19 82.92 L793.71 81.20 L796.24 79.50 L798.80 77.84 L801.39 76.22 L804.00 74.64 L806.64 73.11 L809.30 71.62 L812.00 70.20 L814.73 68.83 L817.49 67.52" fill="none" stroke="#BE123C" stroke-width="22" stroke-linecap="round"/>
+        <path d="M826.03 63.37 L813.95 60.26 L821.02 74.79 Z" fill="#BE123C"/>
+    <path d="M832.50 62.07 L835.47 61.36 L838.47 60.78 L841.49 60.35 L844.53 60.09 L847.58 60.00 L850.63 60.10 L853.66 60.40 L856.67 60.92 L859.63 61.65 L862.53 62.60 L865.35 63.77 L868.07 65.14 L870.68 66.72 L873.17 68.47 L875.54 70.40 L877.78 72.47 L879.89 74.67 L881.88 76.99 L883.73 79.41 L885.47 81.92 L887.09 84.50 L888.61 87.15 L890.02 89.85 L891.33 92.61 L892.54 95.41 L893.67 98.24 L894.71 101.11 L895.66 104.01 L896.55 106.93 L897.35 109.87 L898.08 112.83 L898.75 115.81 L899.35 118.80 L899.88 121.81 L900.35 124.82 L900.76 127.85 L901.11 130.88 L901.40 133.91 L901.63 136.96 L901.81 140.00" fill="none" stroke="#4D7C0F" stroke-width="22" stroke-linecap="round"/>
+        <path d="M902.44 149.48 L909.86 139.47 L893.75 140.54 Z" fill="#4D7C0F"/>
+
+    <!-- flow: a bright pulse travelling the loop -->
+    <path id="loop-main" d="M902.00 148.00 L901.97 151.00 L901.89 154.00 L901.76 157.00 L901.57 159.99 L901.32 162.98 L901.02 165.97 L900.66 168.95 L900.24 171.92 L899.76 174.88 L899.23 177.84 L898.62 180.78 L897.96 183.70 L897.22 186.61 L896.42 189.50 L895.54 192.37 L894.59 195.22 L893.56 198.04 L892.45 200.82 L891.24 203.57 L889.95 206.28 L888.56 208.94 L887.07 211.54 L885.47 214.08 L883.76 216.55 L881.94 218.93 L879.99 221.22 L877.93 223.39 L875.73 225.44 L873.41 227.34 L870.97 229.09 L868.42 230.66 L865.76 232.04 L863.00 233.22 L860.16 234.20 L857.26 234.96 L854.31 235.50 L851.33 235.85 L848.33 235.99 L845.33 235.95 L842.34 235.74 L839.36 235.36 L836.40 234.84 L833.48 234.18 L830.58 233.41 L827.71 232.52 L824.88 231.53 L822.08 230.45 L819.31 229.29 L816.58 228.05 L813.87 226.75 L811.20 225.39 L808.56 223.97 L805.94 222.49 L803.35 220.97 L800.79 219.41 L798.26 217.81 L795.74 216.17 L793.25 214.50 L790.78 212.79 L788.33 211.06 L785.90 209.30 L783.49 207.51 L781.10 205.70 L778.72 203.87 L776.36 202.02 L774.01 200.15 L771.67 198.27 L769.35 196.36 L767.04 194.45 L764.75 192.51 L762.46 190.57 L760.19 188.61 L757.92 186.65 L755.66 184.67 L753.42 182.68 L751.18 180.68 L748.94 178.68 L746.72 176.67 L744.50 174.65 L742.28 172.62 L740.07 170.59 L737.87 168.55 L735.67 166.51 L733.48 164.46 L731.28 162.41 L729.10 160.36 L726.91 158.31 L724.73 156.25 L722.54 154.19 L720.36 152.13 L718.18 150.06 L716.00 148.00 L713.82 145.94 L711.64 143.88 L709.46 141.82 L707.28 139.76 L705.09 137.70 L702.91 135.64 L700.72 133.59 L698.53 131.54 L696.33 129.49 L694.13 127.45 L691.93 125.41 L689.72 123.38 L687.51 121.36 L685.29 119.34 L683.06 117.32 L680.83 115.32 L678.59 113.32 L676.34 111.34 L674.08 109.36 L671.82 107.39 L669.54 105.43 L667.26 103.49 L664.96 101.56 L662.65 99.64 L660.33 97.74 L658.00 95.85 L655.65 93.98 L653.29 92.13 L650.91 90.30 L648.51 88.49 L646.10 86.71 L643.67 84.95 L641.22 83.21 L638.75 81.51 L636.26 79.83 L633.75 78.19 L631.21 76.59 L628.65 75.03 L626.06 73.51 L623.45 72.04 L620.80 70.61 L618.13 69.25 L615.43 67.95 L612.69 66.71 L609.93 65.55 L607.13 64.47 L604.29 63.48 L601.43 62.60 L598.53 61.82 L595.60 61.16 L592.65 60.64 L589.67 60.26 L586.68 60.05 L583.68 60.01 L580.68 60.15 L577.70 60.49 L574.75 61.04 L571.85 61.80 L569.01 62.77 L566.25 63.96 L563.59 65.34 L561.03 66.91 L558.59 68.65 L556.27 70.56 L554.08 72.61 L552.01 74.78 L550.06 77.06 L548.24 79.45 L546.53 81.91 L544.93 84.45 L543.44 87.06 L542.05 89.72 L540.76 92.42 L539.56 95.17 L538.44 97.96 L537.41 100.78 L536.46 103.62 L535.58 106.49 L534.78 109.38 L534.04 112.29 L533.38 115.22 L532.78 118.16 L532.24 121.11 L531.76 124.07 L531.34 127.05 L530.98 130.03 L530.68 133.01 L530.44 136.00 L530.24 139.00 L530.11 141.99 L530.03 144.99 L530.00 148.00 L530.03 151.00 L530.11 154.00 L530.24 156.99 L530.43 159.99 L530.68 162.98 L530.98 165.96 L531.34 168.94 L531.76 171.92 L532.24 174.88 L532.77 177.83 L533.38 180.77 L534.04 183.70 L534.78 186.61 L535.58 189.50 L536.45 192.37 L537.41 195.21 L538.44 198.03 L539.55 200.82 L540.75 203.57 L542.05 206.28 L543.44 208.93 L544.93 211.54 L546.53 214.08 L548.23 216.55 L550.06 218.93 L552.00 221.21 L554.07 223.39 L556.26 225.44 L558.58 227.34 L561.02 229.09 L563.58 230.66 L566.24 232.04 L569.00 233.22 L571.84 234.19 L574.74 234.96 L577.69 235.50 L580.67 235.85 L583.67 235.99 L586.67 235.95 L589.66 235.74 L592.64 235.36 L595.59 234.84 L598.52 234.18 L601.42 233.41 L604.28 232.52 L607.12 231.53 L609.92 230.45 L612.68 229.29 L615.42 228.06 L618.12 226.75 L620.80 225.39 L623.44 223.97 L626.05 222.50 L628.64 220.98 L631.20 219.41 L633.74 217.81 L636.25 216.17 L638.74 214.50 L641.21 212.79 L643.66 211.06 L646.09 209.30 L648.50 207.51 L650.90 205.70 L653.28 203.87 L655.64 202.02 L657.99 200.15 L660.32 198.27 L662.64 196.37 L664.95 194.45 L667.25 192.52 L669.53 190.57 L671.81 188.62 L674.08 186.65 L676.33 184.67 L678.58 182.68 L680.82 180.69 L683.05 178.68 L685.28 176.67 L687.50 174.65 L689.71 172.62 L691.92 170.59 L694.13 168.55 L696.32 166.51 L698.52 164.47 L700.71 162.42 L702.90 160.36 L705.09 158.31 L707.27 156.25 L709.45 154.19 L711.63 152.13 L713.81 150.07 L715.99 148.01 L718.17 145.94 L720.35 143.88 L722.54 141.82 L724.72 139.76 L726.90 137.70 L729.09 135.65 L731.28 133.59 L733.47 131.54 L735.66 129.50 L737.86 127.46 L740.07 125.42 L742.28 123.39 L744.49 121.36 L746.71 119.34 L748.94 117.33 L751.17 115.32 L753.41 113.33 L755.66 111.34 L757.91 109.36 L760.18 107.39 L762.45 105.44 L764.74 103.49 L767.04 101.56 L769.35 99.64 L771.67 97.74 L774.00 95.85 L776.35 93.99 L778.71 92.14 L781.09 90.30 L783.48 88.50 L785.89 86.71 L788.32 84.95 L790.77 83.22 L793.24 81.51 L795.73 79.84 L798.25 78.20 L800.78 76.59 L803.35 75.03 L805.93 73.51 L808.55 72.04 L811.19 70.62 L813.86 69.25 L816.57 67.95 L819.30 66.71 L822.07 65.55 L824.87 64.47 L827.70 63.49 L830.57 62.60 L833.47 61.82 L836.40 61.16 L839.35 60.64 L842.33 60.26 L845.32 60.05 L848.32 60.01 L851.32 60.15 L854.30 60.49 L857.25 61.04 L860.15 61.80 L862.99 62.77 L865.75 63.95 L868.41 65.33 L870.97 66.90 L873.41 68.65 L875.73 70.55 L877.92 72.60 L879.99 74.78 L881.93 77.06 L883.76 79.44 L885.47 81.91 L887.06 84.45 L888.56 87.05 L889.95 89.71 L891.24 92.42 L892.44 95.17 L893.56 97.95 L894.59 100.77 L895.54 103.62 L896.42 106.49 L897.22 109.38 L897.95 112.29 L898.62 115.21 L899.22 118.15 L899.76 121.11 L900.24 124.07 L900.66 127.04 L901.02 130.02 L901.32 133.01 L901.56 136.00 L901.76 138.99 L901.89 141.99 L901.97 144.99 L902.00 147.99" fill="none" stroke="none"/>
+    <path d="M902.00 148.00 L901.97 151.00 L901.89 154.00 L901.76 157.00 L901.57 159.99 L901.32 162.98 L901.02 165.97 L900.66 168.95 L900.24 171.92 L899.76 174.88 L899.23 177.84 L898.62 180.78 L897.96 183.70 L897.22 186.61 L896.42 189.50 L895.54 192.37 L894.59 195.22 L893.56 198.04 L892.45 200.82 L891.24 203.57 L889.95 206.28 L888.56 208.94 L887.07 211.54 L885.47 214.08 L883.76 216.55 L881.94 218.93 L879.99 221.22 L877.93 223.39 L875.73 225.44 L873.41 227.34 L870.97 229.09 L868.42 230.66 L865.76 232.04 L863.00 233.22 L860.16 234.20 L857.26 234.96 L854.31 235.50 L851.33 235.85 L848.33 235.99 L845.33 235.95 L842.34 235.74 L839.36 235.36 L836.40 234.84 L833.48 234.18 L830.58 233.41 L827.71 232.52 L824.88 231.53 L822.08 230.45 L819.31 229.29 L816.58 228.05 L813.87 226.75 L811.20 225.39 L808.56 223.97 L805.94 222.49 L803.35 220.97 L800.79 219.41 L798.26 217.81 L795.74 216.17 L793.25 214.50 L790.78 212.79 L788.33 211.06 L785.90 209.30 L783.49 207.51 L781.10 205.70 L778.72 203.87 L776.36 202.02 L774.01 200.15 L771.67 198.27 L769.35 196.36 L767.04 194.45 L764.75 192.51 L762.46 190.57 L760.19 188.61 L757.92 186.65 L755.66 184.67 L753.42 182.68 L751.18 180.68 L748.94 178.68 L746.72 176.67 L744.50 174.65 L742.28 172.62 L740.07 170.59 L737.87 168.55 L735.67 166.51 L733.48 164.46 L731.28 162.41 L729.10 160.36 L726.91 158.31 L724.73 156.25 L722.54 154.19 L720.36 152.13 L718.18 150.06 L716.00 148.00 L713.82 145.94 L711.64 143.88 L709.46 141.82 L707.28 139.76 L705.09 137.70 L702.91 135.64 L700.72 133.59 L698.53 131.54 L696.33 129.49 L694.13 127.45 L691.93 125.41 L689.72 123.38 L687.51 121.36 L685.29 119.34 L683.06 117.32 L680.83 115.32 L678.59 113.32 L676.34 111.34 L674.08 109.36 L671.82 107.39 L669.54 105.43 L667.26 103.49 L664.96 101.56 L662.65 99.64 L660.33 97.74 L658.00 95.85 L655.65 93.98 L653.29 92.13 L650.91 90.30 L648.51 88.49 L646.10 86.71 L643.67 84.95 L641.22 83.21 L638.75 81.51 L636.26 79.83 L633.75 78.19 L631.21 76.59 L628.65 75.03 L626.06 73.51 L623.45 72.04 L620.80 70.61 L618.13 69.25 L615.43 67.95 L612.69 66.71 L609.93 65.55 L607.13 64.47 L604.29 63.48 L601.43 62.60 L598.53 61.82 L595.60 61.16 L592.65 60.64 L589.67 60.26 L586.68 60.05 L583.68 60.01 L580.68 60.15 L577.70 60.49 L574.75 61.04 L571.85 61.80 L569.01 62.77 L566.25 63.96 L563.59 65.34 L561.03 66.91 L558.59 68.65 L556.27 70.56 L554.08 72.61 L552.01 74.78 L550.06 77.06 L548.24 79.45 L546.53 81.91 L544.93 84.45 L543.44 87.06 L542.05 89.72 L540.76 92.42 L539.56 95.17 L538.44 97.96 L537.41 100.78 L536.46 103.62 L535.58 106.49 L534.78 109.38 L534.04 112.29 L533.38 115.22 L532.78 118.16 L532.24 121.11 L531.76 124.07 L531.34 127.05 L530.98 130.03 L530.68 133.01 L530.44 136.00 L530.24 139.00 L530.11 141.99 L530.03 144.99 L530.00 148.00 L530.03 151.00 L530.11 154.00 L530.24 156.99 L530.43 159.99 L530.68 162.98 L530.98 165.96 L531.34 168.94 L531.76 171.92 L532.24 174.88 L532.77 177.83 L533.38 180.77 L534.04 183.70 L534.78 186.61 L535.58 189.50 L536.45 192.37 L537.41 195.21 L538.44 198.03 L539.55 200.82 L540.75 203.57 L542.05 206.28 L543.44 208.93 L544.93 211.54 L546.53 214.08 L548.23 216.55 L550.06 218.93 L552.00 221.21 L554.07 223.39 L556.26 225.44 L558.58 227.34 L561.02 229.09 L563.58 230.66 L566.24 232.04 L569.00 233.22 L571.84 234.19 L574.74 234.96 L577.69 235.50 L580.67 235.85 L583.67 235.99 L586.67 235.95 L589.66 235.74 L592.64 235.36 L595.59 234.84 L598.52 234.18 L601.42 233.41 L604.28 232.52 L607.12 231.53 L609.92 230.45 L612.68 229.29 L615.42 228.06 L618.12 226.75 L620.80 225.39 L623.44 223.97 L626.05 222.50 L628.64 220.98 L631.20 219.41 L633.74 217.81 L636.25 216.17 L638.74 214.50 L641.21 212.79 L643.66 211.06 L646.09 209.30 L648.50 207.51 L650.90 205.70 L653.28 203.87 L655.64 202.02 L657.99 200.15 L660.32 198.27 L662.64 196.37 L664.95 194.45 L667.25 192.52 L669.53 190.57 L671.81 188.62 L674.08 186.65 L676.33 184.67 L678.58 182.68 L680.82 180.69 L683.05 178.68 L685.28 176.67 L687.50 174.65 L689.71 172.62 L691.92 170.59 L694.13 168.55 L696.32 166.51 L698.52 164.47 L700.71 162.42 L702.90 160.36 L705.09 158.31 L707.27 156.25 L709.45 154.19 L711.63 152.13 L713.81 150.07 L715.99 148.01 L718.17 145.94 L720.35 143.88 L722.54 141.82 L724.72 139.76 L726.90 137.70 L729.09 135.65 L731.28 133.59 L733.47 131.54 L735.66 129.50 L737.86 127.46 L740.07 125.42 L742.28 123.39 L744.49 121.36 L746.71 119.34 L748.94 117.33 L751.17 115.32 L753.41 113.33 L755.66 111.34 L757.91 109.36 L760.18 107.39 L762.45 105.44 L764.74 103.49 L767.04 101.56 L769.35 99.64 L771.67 97.74 L774.00 95.85 L776.35 93.99 L778.71 92.14 L781.09 90.30 L783.48 88.50 L785.89 86.71 L788.32 84.95 L790.77 83.22 L793.24 81.51 L795.73 79.84 L798.25 78.20 L800.78 76.59 L803.35 75.03 L805.93 73.51 L808.55 72.04 L811.19 70.62 L813.86 69.25 L816.57 67.95 L819.30 66.71 L822.07 65.55 L824.87 64.47 L827.70 63.49 L830.57 62.60 L833.47 61.82 L836.40 61.16 L839.35 60.64 L842.33 60.26 L845.32 60.05 L848.32 60.01 L851.32 60.15 L854.30 60.49 L857.25 61.04 L860.15 61.80 L862.99 62.77 L865.75 63.95 L868.41 65.33 L870.97 66.90 L873.41 68.65 L875.73 70.55 L877.92 72.60 L879.99 74.78 L881.93 77.06 L883.76 79.44 L885.47 81.91 L887.06 84.45 L888.56 87.05 L889.95 89.71 L891.24 92.42 L892.44 95.17 L893.56 97.95 L894.59 100.77 L895.54 103.62 L896.42 106.49 L897.22 109.38 L897.95 112.29 L898.62 115.21 L899.22 118.15 L899.76 121.11 L900.24 124.07 L900.66 127.04 L901.02 130.02 L901.32 133.01 L901.56 136.00 L901.76 138.99 L901.89 141.99 L901.97 144.99 L902.00 147.99" fill="none" stroke="#0A0E14" stroke-opacity="0.55"
+          stroke-width="6" stroke-linecap="round" pathLength="100"
+          stroke-dasharray="6 94">
+      <animate attributeName="stroke-dashoffset" values="0;-100" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <circle r="7" fill="#0A0E14" fill-opacity="0.18">
+      <animateMotion dur="9s" repeatCount="indefinite">
+        <mpath href="#loop-main"/>
+      </animateMotion>
+    </circle>
+    <circle r="3.1" fill="#0A0E14" fill-opacity="0.55">
+      <animateMotion dur="9s" repeatCount="indefinite">
+        <mpath href="#loop-main"/>
+      </animateMotion>
+    </circle>
+
+    <!-- phase legend -->
+    <g>
+    <circle cx="522.0" cy="263.6" r="3.1" fill="#0284C7"/>
+    <text x="531.0" y="266.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="7.2" letter-spacing="1.1" fill="#5A6B7C">PLAN</text>
+    <circle cx="571.5" cy="263.6" r="3.1" fill="#7C3AED"/>
+    <text x="580.5" y="266.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="7.2" letter-spacing="1.1" fill="#5A6B7C">CODE</text>
+    <circle cx="621.0" cy="263.6" r="3.1" fill="#B45309"/>
+    <text x="630.0" y="266.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="7.2" letter-spacing="1.1" fill="#5A6B7C">BUILD</text>
+    <circle cx="670.5" cy="263.6" r="3.1" fill="#15803D"/>
+    <text x="679.5" y="266.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="7.2" letter-spacing="1.1" fill="#5A6B7C">TEST</text>
+    <circle cx="720.0" cy="263.6" r="3.1" fill="#0F766E"/>
+    <text x="729.0" y="266.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="7.2" letter-spacing="1.1" fill="#5A6B7C">RELEASE</text>
+    <circle cx="769.5" cy="263.6" r="3.1" fill="#BE185D"/>
+    <text x="778.5" y="266.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="7.2" letter-spacing="1.1" fill="#5A6B7C">DEPLOY</text>
+    <circle cx="819.0" cy="263.6" r="3.1" fill="#BE123C"/>
+    <text x="828.0" y="266.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="7.2" letter-spacing="1.1" fill="#5A6B7C">OPERATE</text>
+    <circle cx="868.5" cy="263.6" r="3.1" fill="#4D7C0F"/>
+    <text x="877.5" y="266.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="7.2" letter-spacing="1.1" fill="#5A6B7C">MONITOR</text>
+    </g>
+
+    <!-- divider between the two halves -->
+    <path d="M486 62 V238" stroke="#0A0E14" stroke-opacity="0.10" stroke-width="1"/>
+    <path d="M482 62 H490 M482 238 H490" stroke="#0284C7" stroke-opacity="0.45" stroke-width="1.2"/>
+
+    <!-- type block -->
+    <text x="56" y="106" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="3.4" fill="#0284C7">ASSOCIATE DEVOPS ENGINEER</text>
+    <text x="54" y="162" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="-0.6" fill="#0A0E14">Hein Sitt Tun</text>
+    <rect x="56" y="180" width="244" height="2.4" rx="1.2" fill="url(#spectrum)"/>
+    <text x="56" y="214" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#5A6B7C">Cloud &amp; Automation · Infrastructure as Code · Observability</text>
+    <g>
+      <circle cx="60" cy="236.5" r="3" fill="#15803D">
+        <animate attributeName="opacity" values="1;.35;1" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="72" y="240" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9.5" letter-spacing="2.2" fill="#5A6B7C">YANGON, MYANMAR</text>
+    </g>
+
+    <!-- corner marks -->
+    <g stroke="#0284C7" stroke-opacity="0.30" stroke-width="1.2" fill="none">
+      <path d="M20 34 V20 H34"/><path d="M966 20 H980 V34"/>
+      <path d="M20 266 V280 H34"/><path d="M980 266 V280 H966"/>
+    </g>
   </g>
+  <rect x="0.5" y="0.5" width="999" height="299" rx="18" fill="none" stroke="rgba(10,14,20,0.10)"/>
 </svg>
