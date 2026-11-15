@@ -114,7 +114,7 @@ to make systems easier to deploy, operate, and observe.
 
 ## 04 · Activity
 
-<sub>Live from the GitHub API, read again every time this page loads. No stored screenshots.</sub>
+<sub>Live from the GitHub API, read again every time this page loads.</sub>
 
 <p align="center">
   <picture>
