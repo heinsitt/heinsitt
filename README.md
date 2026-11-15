@@ -114,13 +114,13 @@ to make systems easier to deploy, operate, and observe.
 
 ## 04 · Activity
 
-<sub>Byte-weighted across public repositories, as classified by GitHub Linguist. Forks and vendored dependencies excluded.</sub>
+<sub>Live from the GitHub API, read again every time this page loads. No stored screenshots.</sub>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/heinsitt/heinsitt/main/assets/langs-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/heinsitt/heinsitt/main/assets/langs-light.svg">
-    <img src="https://raw.githubusercontent.com/heinsitt/heinsitt/main/assets/langs-dark.svg" alt="Language breakdown: TypeScript 56.7%, HTML 32.7%, CSS 8.2%, JavaScript 2.2% across 18 public repositories" width="100%">
+    <source media="(prefers-color-scheme: dark)"  srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=heinsitt&theme=github_dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=heinsitt&theme=github">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=heinsitt&theme=github_dark" alt="Live summary of heinsitt on GitHub: contributions this year, public repositories and account age" width="100%">
   </picture>
 </p>
 

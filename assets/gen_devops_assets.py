@@ -263,76 +263,11 @@ def build_rule(t):
 '''
 
 
-LANGS = [("TypeScript", "56.7 %", 56.7, "#3178C6"), ("HTML", "32.7 %", 32.7, "#E34F26"),
-         ("CSS", "8.2 %", 8.2, "#663399"), ("JavaScript", "2.2 %", 2.2, "#F7DF1E")]
-
-
-def build_langs(t):
-    bx, by, bw, bh = 40, 74, 920, 16
-    x = bx
-    bars = []
-    for _, _, pct, col in LANGS:
-        w = pct / 100 * bw
-        bars.append(f'<rect x="{x:.2f}" y="{by}" width="{w:.2f}" height="{bh}" fill="{col}"/>')
-        x += w
-    bars.append(f'<rect x="{x:.2f}" y="{by}" width="{bx + bw - x:.2f}" height="{bh}" fill="{t["muted"]}" opacity=".55"/>')
-    spots = [(45, 138), (351.7, 138), (658.3, 138), (45, 168), (351.7, 168)]
-    legend_rows = []
-    for (lx, ly), (name, pct, _, col) in zip(spots, LANGS):
-        legend_rows.append(
-            f'<circle cx="{lx:.1f}" cy="{ly - 4:.1f}" r="4" fill="{col}"/>'
-            f'<text x="{lx + 13:.1f}" y="{ly:.1f}" font-family="{FAM}" font-size="12.5" fill="{t["ink"]}">{name}</text>'
-            f'<text x="{lx + 13:.1f}" y="{ly + 15:.1f}" font-family="{MONO}" font-size="9.5" fill="{t["muted"]}">{pct}</text>')
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="212" viewBox="0 0 1000 212" role="img" aria-labelledby="lt ld">
-  <title id="lt">Language breakdown — TypeScript 56.7 percent, HTML 32.7 percent, CSS 8.2 percent, JavaScript 2.2 percent</title>
-  <desc id="ld">Byte-weighted language distribution across Hein Sitt's public repositories.</desc>
-  <defs>
-    <linearGradient id="lbg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="{t["bg"][0][0]}"/>
-      <stop offset="1" stop-color="{t["bg"][1][0]}"/>
-    </linearGradient>
-    <pattern id="lgrid" width="25" height="25" patternUnits="userSpaceOnUse">
-      <path d="M25 0H0V25" fill="none" stroke="{t["grid"]}" stroke-opacity="{t["grid_op"]}" stroke-width="1"/>
-    </pattern>
-    <linearGradient id="lshot" x1="0" y1="0" x2="1" y2="0">
-      {''.join(f'<stop offset="{i / 7:.3f}" stop-color="{c}"/>' for i, c in enumerate(t["loop"]))}
-    </linearGradient>
-    <clipPath id="lbar"><rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="8"/></clipPath>
-    <clipPath id="lcard"><rect width="1000" height="212" rx="18"/></clipPath>
-  </defs>
-
-  <g clip-path="url(#lcard)">
-    <rect width="1000" height="212" fill="url(#lbg)"/>
-    <rect width="1000" height="212" fill="url(#lgrid)"/>
-
-    <text x="40" y="46" font-family="{FAM}" font-size="15.5" font-weight="700" fill="{t["ink"]}">Language breakdown</text>
-    <text x="960" y="46" text-anchor="end" font-family="{MONO}" font-size="9.5" letter-spacing="1.6" fill="{t["muted"]}">18 PUBLIC REPOSITORIES · 1.4 MB · GITHUB LINGUIST</text>
-    <rect x="40" y="60" width="920" height="2.4" rx="1.2" fill="url(#lshot)" opacity=".55"/>
-
-    <rect x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="8" fill="{t["track"]}"/>
-    <g clip-path="url(#lbar)">
-      {''.join(bars)}
-    </g>
-    <rect x="{bx}" y="{by + bh + 42}" width="{bw}" height="3" rx="1.5" fill="{t["track"]}"/>
-
-    <g>{''.join(legend_rows)}</g>
-
-    <g stroke="{t["accent"]}" stroke-opacity=".28" stroke-width="1.1" fill="none">
-      <path d="M14 28 V14 H28"/><path d="M972 14 H986 V28"/>
-      <path d="M14 184 V198 H28"/><path d="M986 184 V198 H972"/>
-    </g>
-  </g>
-  <rect x=".5" y=".5" width="999" height="211" rx="18" fill="none" stroke="{t["border"]}"/>
-</svg>
-'''
-
-
 def main():
     for theme, t in THEMES.items():
         open(f"banner-{theme}.svg", "w").write(build_banner(t))
         open(f"rule-{theme}.svg", "w").write(build_rule(t))
-        open(f"langs-{theme}.svg", "w").write(build_langs(t))
-    print("wrote banner, rule and langs for:", ", ".join(THEMES))
+    print("wrote banner + rule for:", ", ".join(THEMES))
 
 
 if __name__ == "__main__":
