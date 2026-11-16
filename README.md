@@ -114,13 +114,19 @@ to make systems easier to deploy, operate, and observe.
 
 ## 04 · Activity
 
-<sub>Live from the GitHub API, read again every time this page loads.</sub>
+<sub>Which languages the repositories are written in, read from the GitHub API every time this page loads.</sub>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=heinsitt&theme=github_dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=heinsitt&theme=github">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=heinsitt&theme=github_dark" alt="Live summary of heinsitt on GitHub: contributions this year, public repositories and account age" width="100%">
+    <source media="(prefers-color-scheme: dark)"  srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=heinsitt&theme=github_dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=heinsitt&theme=github">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=heinsitt&theme=github_dark" alt="Languages used across heinsitt repositories, counted per repository, live from GitHub">
+  </picture>
+  &nbsp;&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=heinsitt&theme=github_dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=heinsitt&theme=github">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=heinsitt&theme=github_dark" alt="Languages used across heinsitt repositories, counted by commit, live from GitHub">
   </picture>
 </p>
 
