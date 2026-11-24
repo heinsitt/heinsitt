@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="212" viewBox="0 0 1000 212" role="img" aria-labelledby="t d">
+  <title id="t">Languages used across 21 public repositories</title>
+  <desc id="d">Primary language of each repository: HTML 7, TypeScript 7, CSS 2, Python 2, Go Template 1, JavaScript 1, Shell 1. Share of code by volume: JavaScript 48% · TypeScript 31% · HTML 15% · CSS 6% · Python 1%.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F9FBFD"/><stop offset=".55" stop-color="#EEF3F9"/><stop offset="1" stop-color="#F7FAFD"/>
+    </linearGradient>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <path d="M0 0V8" stroke="#0A0E14" stroke-opacity="0.028" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="1000" height="212" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1000" height="212" fill="url(#bg)"/>
+    <rect width="1000" height="212" fill="url(#hatch)"/>
+
+    <text x="40" y="44" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#0A0E14">Languages used</text>
+    <text x="960" y="44" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="1.1" fill="#54677A">21 REPOS WITH CODE · PRIMARY LANGUAGE</text>
+    <path d="M40 58H960" stroke="rgba(10,14,20,0.10)" stroke-width="1"/>
+
+    <circle cx="150" cy="132" r="58" fill="none" stroke="#DCE4EC" stroke-width="16"/>
+    <g transform="rotate(-90 150 132)">
+      <circle cx="150" cy="132" r="58" fill="none" stroke="#C2410C" stroke-width="16" pathLength="100" stroke-dasharray="32.833 67.167" stroke-dashoffset="-0.000"/>
+      <circle cx="150" cy="132" r="58" fill="none" stroke="#3178C6" stroke-width="16" pathLength="100" stroke-dasharray="32.833 67.167" stroke-dashoffset="-33.333"/>
+      <circle cx="150" cy="132" r="58" fill="none" stroke="#663399" stroke-width="16" pathLength="100" stroke-dasharray="9.024 90.976" stroke-dashoffset="-66.667"/>
+      <circle cx="150" cy="132" r="58" fill="none" stroke="#15803D" stroke-width="16" pathLength="100" stroke-dasharray="9.024 90.976" stroke-dashoffset="-76.190"/>
+      <circle cx="150" cy="132" r="58" fill="none" stroke="#0E7490" stroke-width="16" pathLength="100" stroke-dasharray="4.262 95.738" stroke-dashoffset="-85.714"/>
+      <circle cx="150" cy="132" r="58" fill="none" stroke="#B58900" stroke-width="16" pathLength="100" stroke-dasharray="4.262 95.738" stroke-dashoffset="-90.476"/>
+      <circle cx="150" cy="132" r="58" fill="none" stroke="#4D7C0F" stroke-width="16" pathLength="100" stroke-dasharray="4.262 95.738" stroke-dashoffset="-95.238"/>
+      <animateTransform attributeName="transform" type="rotate" values="-90 150 132;270 150 132" dur="120s" repeatCount="indefinite"/>
+    </g>
+    <text x="150" y="136" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700" fill="#0A0E14">21</text>
+    <text x="150" y="152" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="8" letter-spacing="2" fill="#7C8B99">REPOS</text>
+
+    <rect x="300" y="77" width="10" height="10" rx="2.5" fill="#C2410C"/><text x="318" y="86" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#0A0E14">HTML</text><text x="600" y="86" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#54677A">7 repos · 33%</text>
+    <rect x="300" y="107" width="10" height="10" rx="2.5" fill="#3178C6"/><text x="318" y="116" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#0A0E14">TypeScript</text><text x="600" y="116" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#54677A">7 repos · 33%</text>
+    <rect x="300" y="137" width="10" height="10" rx="2.5" fill="#663399"/><text x="318" y="146" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#0A0E14">CSS</text><text x="600" y="146" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#54677A">2 repos · 10%</text>
+    <rect x="300" y="167" width="10" height="10" rx="2.5" fill="#15803D"/><text x="318" y="176" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#0A0E14">Python</text><text x="600" y="176" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#54677A">2 repos · 10%</text>
+    <rect x="640" y="77" width="10" height="10" rx="2.5" fill="#0E7490"/><text x="658" y="86" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#0A0E14">Go Template</text><text x="940" y="86" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#54677A">1 repo · 5%</text>
+    <rect x="640" y="107" width="10" height="10" rx="2.5" fill="#B58900"/><text x="658" y="116" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#0A0E14">JavaScript</text><text x="940" y="116" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#54677A">1 repo · 5%</text>
+    <rect x="640" y="137" width="10" height="10" rx="2.5" fill="#4D7C0F"/><text x="658" y="146" font-family="-apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#0A0E14">Shell</text><text x="940" y="146" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" fill="#54677A">1 repo · 5%</text>
+
+    <text x="300" y="196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="9" letter-spacing="0.6" fill="#7C8B99">SHARE OF CODE BY VOLUME · JAVASCRIPT 48% · TYPESCRIPT 31% · HTML 15% · CSS 6% · PYTHON 1%</text>
+  </g>
+  <rect x=".5" y=".5" width="999" height="211" rx="18" fill="none" stroke="rgba(10,14,20,0.10)"/>
+</svg>

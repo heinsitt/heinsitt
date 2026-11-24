@@ -5,6 +5,8 @@
      loop       eight phase colours: plan, code, build, test, release, deploy,
                 operate, monitor (spectrum used for rules and hairlines)
      chips      #0E141C (uniform) + brand-coloured logo
+     langs      card rebuilt daily by .github/workflows/languages.yml from
+                assets/gen_langs.py; Python drawn dark green #166534 / #15803D
      sections   rule → numbered eyebrow → prose
      banner     DevOps infinity loop: eight arrow segments flowing round a
                 lemniscate, travelling pulse, blueprint grid, phase legend
@@ -114,19 +116,13 @@ to make systems easier to deploy, operate, and observe.
 
 ## 04 · Activity
 
-<sub>Which languages the repositories are written in, read from the GitHub API every time this page loads.</sub>
+<sub>Languages used across the repositories, rebuilt from the GitHub API by a scheduled workflow.</sub>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=heinsitt&theme=github_dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=heinsitt&theme=github">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=heinsitt&theme=github_dark" alt="Languages used across heinsitt repositories, counted per repository, live from GitHub">
-  </picture>
-  &nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=heinsitt&theme=github_dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=heinsitt&theme=github">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=heinsitt&theme=github_dark" alt="Languages used across heinsitt repositories, counted by commit, live from GitHub">
+    <source media="(prefers-color-scheme: dark)"  srcset="assets/langs-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/langs-light.svg">
+    <img src="assets/langs-dark.svg" alt="Languages used across the repositories: primary language of each repository and the share of code by volume" width="100%">
   </picture>
 </p>
 
